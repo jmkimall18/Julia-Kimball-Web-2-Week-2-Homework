@@ -29,6 +29,46 @@
       "oAP" : "\/deploy \/index.html",
       "oF" : 0
     },
+    "\/dev \/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev \/footer.html",
+      "oF" : 0
+    },
+    "\/dev \/global\/head.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev \/global\/head.html",
+      "oF" : 0
+    },
+    "\/dev \/global\/scripts.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev \/global\/scripts.html",
+      "oF" : 0
+    },
+    "\/dev \/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev \/header.html",
+      "oF" : 0
+    },
+    "\/dev \/index.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev \/index.html",
+      "oF" : 0
+    },
     "\/dev \/js\/scripts.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -124,14 +164,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev \/scss\/header.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev \/scss\/header.html",
-      "oF" : 0
-    },
     "\/dev \/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -159,14 +191,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/dev \/scss\/index.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev \/scss\/index.html",
-      "oF" : 0
     },
     "\/dev \/scss\/layout\/_footer.scss" : {
       "aP" : 0,
