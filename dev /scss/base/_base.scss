@@ -1,0 +1,28 @@
+/* =============
+    Base
+============= */
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style: none;
+    }
+}
+
+.content {
+    margin-bottom: 24px;
+
+    @include md {
+        margin-bottom: 32px;
+    }
+
+    @include xl {
+        margin-bottom: 64px;
+    }
+}

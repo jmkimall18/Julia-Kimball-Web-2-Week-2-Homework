@@ -1,0 +1,175 @@
+/* =============
+    Footer
+============= */
+footer {
+	background-color: $nightDark;
+	color: $alpineFrostDark;
+	padding: 16px;
+
+	@include xl {
+		display: grid;
+		grid-template-areas: ". footer .";
+		grid-template-columns: auto 1200px auto;
+	}
+
+	>div {
+		display: grid;
+		gap: 24px;
+
+		@include md {
+			grid-template-areas: "locations newsletter"
+				"locations social";
+			grid-template-columns: 50% auto;
+		}
+
+		@include lg {
+			grid-template-areas: "locations newsletter social";
+			grid-template-columns: repeat(3, 1fr);
+		}
+
+		@include xl {
+			grid-area: footer;
+		}
+
+		h1 {
+			font-size: rem-calc(20);
+			font-weight: 600;
+			margin-bottom: 16px;
+		}
+
+		section {
+			padding-top: 16px;
+
+			h2 {
+				font-size: rem-calc(16);
+				font-weight: 600;
+				padding-bottom: 8px;
+			}
+
+			ul {
+				border-bottom: 1px solid $alpineFrostDark;
+				padding-bottom: 16px;
+
+				li {
+					display: flex;
+					margin-bottom: 16px;
+
+					div {
+						align-items: center;
+						display: flex;
+						margin-right: 16px;
+					}
+				}
+			}
+		}
+
+		#locations {
+			@include md {
+				grid-area: locations;
+			}
+
+			i {
+				color: $electricYellow;
+			}
+
+			a:link,
+			a:visited {
+				color: $alpineFrostDark;
+
+				&:hover,
+				&:active {}
+			}
+
+			#nova {
+				@include md {
+					border: none;
+				}
+			}
+		}
+
+		#newsletter {
+			@include md {
+				grid-area: newsletter;
+			}
+
+			form {
+				input {
+					background-color: $brightStarDark;
+					border: none;
+					color: $nightDark;
+					padding: 16px 2%;
+					width: 96%;
+
+					&::placeholder {
+						/* Chrome, Firefox, Opera, Safari 10.1+ */
+						color: $nightDark;
+						/* Firefox */
+						opacity: 1;
+					}
+
+					&:-ms-input-placeholder {
+						/* Internet Explorer 10-11 */
+						color: $nightDark;
+					}
+
+					&::-ms-input-placeholder {
+						/* Microsoft Edge */
+						color: $nightDark;
+					}
+				}
+
+				button {
+					display: flex;
+					margin-left: auto;
+					margin-top: 16px;
+				}
+			}
+		}
+
+		#social {
+			@include md {
+				grid-area: social;
+				margin-top: -100px;
+			}
+
+			@include lg {
+				margin-top: 0px;
+			}
+
+			h1 {
+				@include lg {
+					text-align: right;
+				}
+			}
+
+			ul {
+				border: none;
+				display: flex;
+
+				@include lg {
+					justify-content: flex-end;
+				}
+
+				li {
+					margin-right: 16px;
+
+					@include lg {
+						margin-left: 16px;
+						margin-right: 0px;
+					}
+
+					a:link,
+					a:visited {
+						color: $white;
+						font-size: rem-calc(30);
+
+						&:hover,
+						&:active {
+							color: $electricYellow;
+						}
+					}
+				}
+			}
+		}
+	}
+}
