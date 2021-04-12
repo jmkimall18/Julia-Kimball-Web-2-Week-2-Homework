@@ -21,6 +21,19 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy \/img\/header\/GiftCard-copy.png" : {
+      "ft" : 32768,
+      "iS" : 5242,
+      "oA" : 0,
+      "oAP" : "\/deploy \/img\/header\/GiftCard-copy.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy \/img\/hero\/hero-1.jpg" : {
       "ft" : 16384,
       "iS" : 640640,
