@@ -29,6 +29,62 @@
       "oAP" : "\/deploy \/index.html",
       "oF" : 0
     },
+    "\/dev \/content\/heading-1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev \/content\/heading-1.html",
+      "oF" : 0
+    },
+    "\/dev \/content\/heading-2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev \/content\/heading-2.html",
+      "oF" : 0
+    },
+    "\/dev \/content\/heading-3.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev \/content\/heading-3.html",
+      "oF" : 0
+    },
+    "\/dev \/content\/hero-2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev \/content\/hero-2.html",
+      "oF" : 0
+    },
+    "\/dev \/content\/hero-3.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev \/content\/hero-3.html",
+      "oF" : 0
+    },
+    "\/dev \/content\/hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev \/content\/hero.html",
+      "oF" : 0
+    },
+    "\/dev \/content\/section-1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev \/content\/section-1.html",
+      "oF" : 0
+    },
     "\/dev \/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
