@@ -47,6 +47,84 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy \/img\/Interal-store\/farm-veggies.jpg" : {
+      "ft" : 16384,
+      "iS" : 42932,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy \/img\/Interal-store\/farm-veggies.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy \/img\/kids-dad\/group.jpg" : {
+      "ft" : 16384,
+      "iS" : 422746,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy \/img\/kids-dad\/group.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy \/img\/strawberries\/Strawberries.jpg" : {
+      "ft" : 16384,
+      "iS" : 186196,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy \/img\/strawberries\/Strawberries.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy \/img\/veggies\/vegs.png" : {
+      "ft" : 32768,
+      "iS" : 10483,
+      "oA" : 0,
+      "oAP" : "\/deploy \/img\/veggies\/vegs.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy \/img\/wholesale\/berries.png" : {
+      "ft" : 32768,
+      "iS" : 4705,
+      "oA" : 0,
+      "oAP" : "\/deploy \/img\/wholesale\/berries.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy \/img\/woman\/girl-box.jpg" : {
+      "ft" : 16384,
+      "iS" : 125737,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy \/img\/woman\/girl-box.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy \/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -71,14 +149,6 @@
       "oAP" : "\/dev \/content\/heading-2.html",
       "oF" : 0
     },
-    "\/dev \/content\/heading-3.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev \/content\/heading-3.html",
-      "oF" : 0
-    },
     "\/dev \/content\/hero-2.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -93,6 +163,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev \/content\/hero-3.html",
+      "oF" : 0
+    },
+    "\/dev \/content\/hero-4.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev \/content\/hero-4.html",
       "oF" : 0
     },
     "\/dev \/content\/hero.kit" : {
