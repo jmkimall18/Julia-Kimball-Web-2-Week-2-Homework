@@ -21,6 +21,45 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy \/img\/blueberries\/blues.jpg" : {
+      "ft" : 16384,
+      "iS" : 35850,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy \/img\/blueberries\/blues.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy \/img\/field2\/Fields.jpg" : {
+      "ft" : 16384,
+      "iS" : 35053,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy \/img\/field2\/Fields.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy \/img\/Hayrides\/hayrides.png" : {
+      "ft" : 32768,
+      "iS" : 33385,
+      "oA" : 0,
+      "oAP" : "\/deploy \/img\/Hayrides\/hayrides.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy \/img\/header\/GiftCard-copy.png" : {
       "ft" : 32768,
       "iS" : 5242,
@@ -69,6 +108,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy \/img\/people-food\/veg-stand.png" : {
+      "ft" : 32768,
+      "iS" : 37227,
+      "oA" : 0,
+      "oAP" : "\/deploy \/img\/people-food\/veg-stand.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
