@@ -355,6 +355,24 @@ template {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.section-title {
+  font-weight: 300;
+}
+
 /* =============
     Buttons
 ============= */
@@ -362,7 +380,7 @@ button {
   cursor: pointer;
 }
 
-.yellow-button {
+.blue-button {
   background-color: #FFD205;
   border: none;
   font-size: 1rem;
@@ -370,7 +388,7 @@ button {
   padding: 10px;
   transition: 0.25s;
 }
-.yellow-button:hover {
+.blue-button:hover {
   background-color: #000;
   color: #fff;
 }
@@ -406,4 +424,28 @@ a {
 ============= */
 /* =============
     Footer
+============= */
+/* =============
+    heading-1
+============= */
+/* =============
+    heading-2
+============= */
+/* =============
+    hero-2
+============= */
+/* =============
+    hero-3
+============= */
+/* =============
+    hero-4
+============= */
+/* =============
+    hero
+============= */
+/* =============
+    section-1
+============= */
+/* =============
+    section-2
 ============= */
