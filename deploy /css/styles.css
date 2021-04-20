@@ -352,6 +352,67 @@ template {
 /* =============
     Base
 ============= */
+bfigure {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.content {
+  display: grid;
+  grid-template-areas: "header" "heading-1" "heading-2" "hero-2" "hero-3" "hero-4" "hero" "section-1" "section-2";
+  margin-bottom: 24px;
+}
+.content .header {
+  grid-template: header;
+}
+.content .heading-1 {
+  grid-template: heading-1;
+}
+.content .heading-2 {
+  grid-template: heading-2;
+}
+.content .hero-2 {
+  grid-template: hero-2;
+}
+.content .hero-3 {
+  grid-template: hero-3;
+}
+.content .hero-4 {
+  grid-template: hero-4;
+}
+.content .hero {
+  grid-template: hero;
+}
+.content .section-1 {
+  grid-template: section-1;
+}
+.content .section-2 {
+  grid-template: section-2;
+}
+@media (min-width: 768px) {
+  .content {
+    margin-bottom: 32px;
+  }
+}
+@media (min-width: 1024px) {
+  .content {
+    margin-bottom: 32px;
+  }
+}
+@media (min-width: 1200px) {
+  .content {
+    margin-bottom: 64px;
+  }
+}
+
 /* =============
     Typography
 ============= */
@@ -422,9 +483,27 @@ a {
 /* =============
     Header
 ============= */
+#header {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". header .";
+}
+#header > div {
+  grid-area: header;
+}
+
 /* =============
     Footer
 ============= */
+#footer {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". footer .";
+}
+#footer > div {
+  grid-area: footer;
+}
+
 /* =============
     heading-1
 ============= */
