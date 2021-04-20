@@ -1,3 +1,13 @@
 /* =============
     heading-1
 ============= */
+
+#heading-1 {
+	display: grid;
+        grid-template-columns: 16px auto 16px;
+		grid-template-areas: ". heading-1 .";
+
+        >div{
+            grid-area: heading-1;
+        }
+	}

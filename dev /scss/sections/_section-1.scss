@@ -1,3 +1,12 @@
 /* =============
     section-1
 ============= */
+#section-1 {
+	display: grid;
+        grid-template-columns: 16px auto 16px;
+		grid-template-areas: ". section-1 .";
+
+        >div{
+            grid-area: section-1;
+        }
+	}
