@@ -3,13 +3,18 @@
 ============= */
 
 #section-2 {
-	display: grid;
+
+    #section-2content {
+
+        display: grid;
         grid-template-columns: 16px auto 16px;
-		grid-template-areas: ". section-2 .";
+		grid-template-areas: ". section-2content .";
 
         >div{
-            grid-area: section-2;
+            grid-area: section-2content;
         }
+    }
+	
         img{
             width: 100%;
         }

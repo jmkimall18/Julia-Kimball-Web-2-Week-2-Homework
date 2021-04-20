@@ -587,13 +587,13 @@ footer > div {
 /* =============
     section-2
 ============= */
-#section-2 {
+#section-2 #section-2content {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". section-2 .";
+  grid-template-areas: ". section-2content .";
 }
-#section-2 > div {
-  grid-area: section-2;
+#section-2 #section-2content > div {
+  grid-area: section-2content;
 }
 #section-2 img {
   width: 100%;
