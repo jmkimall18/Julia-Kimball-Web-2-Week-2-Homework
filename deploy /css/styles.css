@@ -556,7 +556,7 @@ footer > div {
     hero-4
 ============= */
 #hero-4 {
-  display: grid;
+  display: none;
 }
 #hero-4 img {
   width: 100%;
