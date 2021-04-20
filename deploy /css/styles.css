@@ -371,31 +371,34 @@ ul li {
   margin-bottom: 24px;
 }
 .content .header {
-  grid-template: header;
+  grid-area: header;
 }
-.content .heading-1 {
-  grid-template: heading-1;
+.content #heading-1 {
+  grid-area: heading-1;
 }
-.content .heading-2 {
-  grid-template: heading-2;
+.content #heading-2 {
+  grid-area: heading-2;
 }
-.content .hero-2 {
-  grid-template: hero-2;
+.content #hero-2 {
+  grid-area: hero-2;
 }
-.content .hero-3 {
-  grid-template: hero-3;
+.content #hero-3 {
+  grid-area: hero-3;
 }
-.content .hero-4 {
-  grid-template: hero-4;
+.content #hero-4 {
+  grid-area: hero-4;
 }
-.content .hero {
-  grid-template: hero;
+.content #hero {
+  grid-area: hero;
 }
-.content .section-1 {
-  grid-template: section-1;
+.content #section-1 {
+  grid-area: section-1;
 }
-.content .section-2 {
-  grid-template: section-2;
+.content #section-2 {
+  grid-area: section-2;
+}
+.content .footer {
+  grid-area: footer;
 }
 @media (min-width: 768px) {
   .content {
@@ -490,6 +493,7 @@ header {
 }
 header > div {
   grid-area: header;
+  border: 1px solid white;
 }
 
 /* =============
@@ -531,15 +535,43 @@ footer > div {
 /* =============
     hero-2
 ============= */
+#hero-2 {
+  display: grid;
+}
+#hero-2 img {
+  width: 100%;
+}
+
 /* =============
     hero-3
 ============= */
+#hero-3 {
+  display: grid;
+}
+#hero-3 img {
+  width: 100%;
+}
+
 /* =============
     hero-4
 ============= */
+#hero-4 {
+  display: grid;
+}
+#hero-4 img {
+  width: 100%;
+}
+
 /* =============
     hero
 ============= */
+#hero {
+  display: grid;
+}
+#hero img {
+  width: 100%;
+}
+
 /* =============
     section-1
 ============= */
@@ -562,4 +594,7 @@ footer > div {
 }
 #section-2 > div {
   grid-area: section-2;
+}
+#section-2 img {
+  width: 100%;
 }

@@ -16,7 +16,9 @@ ul {
 }
 
 .content {
+
     display: grid;
+    // gap: 30px;
     grid-template-areas: 
         "header"
         "heading-1"
@@ -29,44 +31,45 @@ ul {
         "section-2";
 
      .header {
-        grid-template: header;
+        grid-area: header;
      }
 
-     .heading-1 {
-        grid-template: heading-1;
+     #heading-1 {
+        grid-area: heading-1;
      }
 
-     .heading-2 {
-        grid-template: heading-2;
+     #heading-2 {
+        grid-area: heading-2;
      }
 
-     .hero-2 {
-        grid-template: hero-2;
+     #hero-2 {
+        grid-area: hero-2;
      }
 
-     .hero-3 {
-        grid-template: hero-3;
+     #hero-3 {
+        grid-area: hero-3;
      }
 
-     .hero-4 {
-        grid-template: hero-4;
+     #hero-4 {
+        grid-area: hero-4;
      }
 
-     .hero {
-        grid-template: hero;
+     #hero {
+        grid-area: hero;
      }
 
-     .section-1 {
-        grid-template: section-1;
+     #section-1 {
+        grid-area: section-1;
      }
 
-     .section-2 {
-        grid-template: section-2;
+     #section-2 {
+        grid-area: section-2;
      }
 
      
-
-
+     .footer {
+        grid-area: footer;
+     }
 
     margin-bottom: 24px;
 
