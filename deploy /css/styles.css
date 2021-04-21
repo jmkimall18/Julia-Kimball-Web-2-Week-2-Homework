@@ -352,7 +352,7 @@ template {
 /* =============
     Base
 ============= */
-bfigure {
+figure {
   margin: 0;
   padding: 0;
 }
