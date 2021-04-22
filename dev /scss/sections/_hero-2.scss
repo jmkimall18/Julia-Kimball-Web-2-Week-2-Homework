@@ -2,9 +2,28 @@
     hero-2
 ============= */
 
-#hero-2 {
-    display: grid;
-    img{
-        width: 100%;
+#hero-2{ 
+    ul{
+         display: grid;
+         
+        li{
+            img{
+                width: 100%;
+            }
+        }
+
+        #hero-2-3{
+            display: none;
+        }
+        @include md{
+            grid-template-columns: 50% 50%;
+            grid-column-areas: ". hero-2 . hero-2-3"
+
+
+
+        }
     }
+
+   
+
 }
