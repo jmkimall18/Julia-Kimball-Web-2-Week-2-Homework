@@ -590,7 +590,13 @@ footer > div {
 #section-2 #section-2content {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". section-2content .";
+  grid-template-areas: ". section-2content";
+}
+@media (min-width: 768px) {
+  #section-2 #section-2content {
+    grid-template-columns: auto 50%;
+    grid-template-areas: ".section-2content";
+  }
 }
 #section-2 #section-2content > div {
   grid-area: section-2content;
