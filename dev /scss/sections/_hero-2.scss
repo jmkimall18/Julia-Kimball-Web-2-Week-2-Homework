@@ -3,27 +3,47 @@
 ============= */
 
 #hero-2{ 
-    ul{
          display: grid;
-         
-        li{
-            img{
-                width: 100%;
-            }
+         img{
+            width: 100%;
         }
-
-        #hero-2-3{
-            display: none;
-        }
-        @include md{
-            grid-template-columns: 50% 50%;
-            grid-column-areas: ". hero-2 . hero-2-3"
-
-
-
+        >div{
+        ul{
+            gap:0px;
+            display: grid;
+            grid-area: hero-2-content;
+            grid-template-areas:
+            "i1"
+            "i2"
+            "i3";
         }
     }
 
-   
 
+
+      >div{  
+        @include md{
+            grid-template-columns: 50% 50%;
+            grid-template-areas: 
+            "i1 i2" 
+            "i1 i2"
+            "i1 i2"
+        }
+    
+    #i1{ 
+        grid-area: i1;
+    }
+    #i2{ 
+        grid-area: i2;
+    }
+    #i3{ 
+        display: none;
+        @include lg{
+            display:list-item
+        }
+        } 
+
+    }
 }
+
+

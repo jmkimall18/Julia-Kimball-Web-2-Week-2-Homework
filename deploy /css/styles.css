@@ -535,19 +535,36 @@ footer > div {
 /* =============
     hero-2
 ============= */
-#hero-2 ul {
+#hero-2 {
   display: grid;
 }
-#hero-2 ul li img {
+#hero-2 img {
   width: 100%;
 }
-#hero-2 ul #hero-2-3 {
-  display: none;
+#hero-2 > div ul {
+  gap: 0px;
+  display: grid;
+  grid-area: hero-2-content;
+  grid-template-areas: "i1" "i2" "i3";
 }
 @media (min-width: 768px) {
-  #hero-2 ul {
+  #hero-2 > div {
     grid-template-columns: 50% 50%;
-    grid-column-areas: ". hero-2 . hero-2-3";
+    grid-template-areas: "i1 i2" "i1 i2" "i1 i2";
+  }
+}
+#hero-2 > div #i1 {
+  grid-area: i1;
+}
+#hero-2 > div #i2 {
+  grid-area: i2;
+}
+#hero-2 > div #i3 {
+  display: none;
+}
+@media (min-width: 1024px) {
+  #hero-2 > div #i3 {
+    display: list-item;
   }
 }
 
