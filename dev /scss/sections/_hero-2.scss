@@ -7,7 +7,8 @@
          img{
             width: 100%;
         }
-        >div{
+    >div{
+
         ul{
             gap:0px;
             display: grid;
@@ -16,19 +17,32 @@
             "i1"
             "i2"
             "i3";
-        }
-    }
+        
+            
+            @include md{
+                grid-template-columns: 50% 50%;
+                grid-template-areas: 
+                "i1 i2" 
+                
+            }
 
 
+            @include lg{
+                grid-template-columns: 50% 50%;
+                grid-template-areas: 
+                "i1 i2" 
+                "il i2"
+                
+            }
 
-      >div{  
-        @include md{
-            grid-template-columns: 50% 50%;
-            grid-template-areas: 
-            "i1 i2" 
-            "i1 i2"
-            "i1 i2"
-        }
+
+            @include xl{
+                grid-template-columns: 50% 50%;
+                grid-template-areas: 
+                "i1 i2" 
+                "il i2"
+                "i3 i2"
+            }
     
     #i1{ 
         grid-area: i1;
@@ -38,12 +52,14 @@
     }
     #i3{ 
         display: none;
-        @include lg{
+        @include xl{
             display:list-item
         }
         } 
 
-    }
+   
+}
+}
 }
 
 

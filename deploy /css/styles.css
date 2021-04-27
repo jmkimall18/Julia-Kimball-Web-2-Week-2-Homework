@@ -548,22 +548,34 @@ footer > div {
   grid-template-areas: "i1" "i2" "i3";
 }
 @media (min-width: 768px) {
-  #hero-2 > div {
+  #hero-2 > div ul {
     grid-template-columns: 50% 50%;
-    grid-template-areas: "i1 i2" "i1 i2" "i1 i2";
+    grid-template-areas: "i1 i2";
   }
 }
-#hero-2 > div #i1 {
+@media (min-width: 1024px) {
+  #hero-2 > div ul {
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "i1 i2" "il i2";
+  }
+}
+@media (min-width: 1200px) {
+  #hero-2 > div ul {
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "i1 i2" "il i2" "i3 i2";
+  }
+}
+#hero-2 > div ul #i1 {
   grid-area: i1;
 }
-#hero-2 > div #i2 {
+#hero-2 > div ul #i2 {
   grid-area: i2;
 }
-#hero-2 > div #i3 {
+#hero-2 > div ul #i3 {
   display: none;
 }
-@media (min-width: 1024px) {
-  #hero-2 > div #i3 {
+@media (min-width: 1200px) {
+  #hero-2 > div ul #i3 {
     display: list-item;
   }
 }
