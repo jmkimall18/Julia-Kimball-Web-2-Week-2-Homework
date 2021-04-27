@@ -650,46 +650,46 @@ footer > div {
 /* =============
     section-2
 ============= */
-#section-2 #section-2content {
+#section-2 ul li img {
+  width: 100%;
+}
+#section-2 ul li #section-2content {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". section-2content";
 }
-#section-2 #section-2content > div {
+#section-2 ul li #section-2content > div {
   grid-area: section-2content;
 }
-#section-2 #section-2content2 {
+#section-2 ul li #section-2content2 {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". section-2content2";
 }
-#section-2 #section-2content2 > div {
+#section-2 ul li #section-2content2 > div {
   grid-area: section-2content2;
 }
-#section-2 #section-2content3 {
+#section-2 ul li #section-2content3 {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". section-2content3";
 }
-#section-2 #section-2content3 > div {
+#section-2 ul li #section-2content3 > div {
   grid-area: section-2content3;
 }
-#section-2 #section-2content4 {
+#section-2 ul li #section-2content4 {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". section-2content4";
 }
-#section-2 #section-2content4 > div {
+#section-2 ul li #section-2content4 > div {
   grid-area: section-2content4;
 }
-#section-2 #section-2content5 {
+#section-2 ul li #section-2content5 {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". section-2content5";
 }
-#section-2 #section-2content5 > div {
+#section-2 ul li #section-2content5 > div {
   grid-area: section-2content5;
-}
-#section-2 img {
-  width: 100%;
 }
