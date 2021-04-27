@@ -639,10 +639,12 @@ footer > div {
     grid-template-areas: "section-a section-b" "section-c section-d";
   }
 }
-#section-1 > div include xl {
-  display: grid;
-  grid-template-columns: auto 1200 auto;
-  grid-template-areas: ". section-1 .";
+@media (min-width: 1200px) {
+  #section-1 > div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "section-a section-b" "section-c section-d";
+  }
 }
 
 /* =============
