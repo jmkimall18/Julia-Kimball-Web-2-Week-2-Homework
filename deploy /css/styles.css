@@ -508,9 +508,9 @@ header > div {
   grid-area: footer;
 }
 @media (min-width: 768px) {
-  #footer {
+  #footer > div {
     display: grid;
-    grid-template-columns: 50% auto;
+    grid-template-columns: 50% 50%;
     grid-template-areas: "footera footer1 " "footera footer2";
   }
 }
@@ -605,57 +605,33 @@ header > div {
 /* =============
     section-1
 ============= */
-#section-1 > div #section-a {
+#section-1 ul li {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". section-a .";
+  grid-template-areas: ". section-1 .";
 }
-#section-1 > div #section-a > div {
-  grid-area: section-a;
-}
-#section-1 > div #section-b {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". section-b .";
-}
-#section-1 > div #section-b > div {
-  grid-area: section-b;
-}
-#section-1 > div #section-c {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". section-c .";
-}
-#section-1 > div #section-c > div {
-  grid-area: section-c;
-}
-#section-1 > div #section-d {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". section-d .";
-}
-#section-1 > div #section-d > div {
-  grid-area: section-d;
+#section-1 ul li > div {
+  grid-area: section-1;
 }
 @media (min-width: 768px) {
-  #section-1 > div {
+  #section-1 ul li {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% auto;
     grid-template-areas: "section-a section-b" "section-c section-d";
   }
 }
 @media (min-width: 1024px) {
-  #section-1 > div {
+  #section-1 ul li {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% auto;
     grid-template-areas: "section-a section-b" "section-c section-d";
   }
 }
 @media (min-width: 1200px) {
-  #section-1 > div {
+  #section-1 ul li {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: "section-a section-b" "section-c section-d";
+    grid-template-columns: auto 480px 16px;
+    grid-template-areas: ". section-1 .";
   }
 }
 

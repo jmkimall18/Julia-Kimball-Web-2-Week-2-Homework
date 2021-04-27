@@ -2,20 +2,24 @@
     Footer
 ============= */
 #footer {
-	display: grid;
-        grid-template-columns: 16px auto 16px;
-		grid-template-areas: ". footer .";
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". footer .";
 
-    >div{
-        grid-area: footer;
-                 }
+>div{
+    grid-area: footer;
+             
 
-                 @include md{
-                    display: grid;
-                    grid-template-columns: 50% auto;
-                    grid-template-areas: "footera footer1 " 
-                    "footera footer2";
-                    
-                }
+             @include md{
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-areas: "footera footer1 " 
+                "footera footer2";
+                
+            }
+
+
+}
+
 
 }
