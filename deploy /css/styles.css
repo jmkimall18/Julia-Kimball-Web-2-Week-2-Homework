@@ -507,6 +507,13 @@ header > div {
 #footer > div {
   grid-area: footer;
 }
+@media (min-width: 768px) {
+  #footer {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "footera footer1 " "footera footer2";
+  }
+}
 
 /* =============
     heading-1
@@ -515,6 +522,11 @@ header > div {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". heading-1 .";
+}
+@media (min-width: 1200px) {
+  #heading-1 {
+    grid-template-columns: auto 1000px auto;
+  }
 }
 #heading-1 > div {
   grid-area: heading-1;
