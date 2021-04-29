@@ -3,112 +3,117 @@
 ============= */
 
 #section-2 {
-
-    >div{
-
-    @include md{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". section-2 .";
-    }
-
-    
-
-
-@include xl{
-    grid-template-columns: auto 1200px auto;
-    }
-}
-
-    >div{
-            @include md{
-
-                grid-area: section-2;
-            }
-
-    }
-
-ul{
-
-
-    @include md{
+    @include md {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-areas: "section-2content section-2content section-2content2 section-2content2"
-        "section-2content3 section-2content3 section-2content4 section-2content4"
-        ". section-2content5 section-2content5 .";
-        gap: 16px;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". section-2 .";
     }
 
-    @include lg{
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-areas: "section-2content section-2content section-2content2 section-2content2 section-2content3 section-2content3"
-        ". section-2content4 section-2content4 section-2content5 section-2content5 .";
-        gap: 16px;
+
+    @include xl {
+        grid-template-columns: auto 1200px auto;
     }
-    
-        li{
+
+
+    >div {
+        @include md {
+            grid-area: section-2;
+        }
+
+
+    ul {
+
+
+        @include md {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-areas: "section-2content section-2content section-2content2 section-2content2"
+                "section-2content3 section-2content3 section-2content4 section-2content4"
+                ". section-2content5 section-2content5 .";
+            gap: 16px;
+        }
+
+        @include lg {
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-areas: "section-2content section-2content section-2content2 section-2content2 section-2content3 section-2content3"
+                ". section-2content4 section-2content4 section-2content5 section-2content5 .";
+
+        }
+
+        li {
             background-color: $vanilla;
-            img{
+
+            // @include xl {
+            //     grid-template-columns: auto 480px 16px;
+            //     grid-template-areas: ". section-1 .";
+            // }
+
+
+            img {
                 width: 100%;
             }
 
-            @include xl{
-                grid-template-columns: auto 480px 16px;
-            }
-
-    section{
-
-        display: grid;
-        grid-template-columns: 16px auto 16px;
-		grid-template-areas: ". section-2 .";
-
-        >div{
-            grid-area: section-2-content;
-        
-        }
-
-    }
-}
-
-#section-2content{
-grid-area: section-2content;
-
-}
-
-#section-2content2{
-    grid-area: section-2content2;
-    
-    }
-    #section-2content3{
-        grid-area: section-2content3;
-        
-        }
-
-        #section-2content4{
-            grid-area: section-2content4;
             
-            }
+            section {
 
-            #section-2content5{
-                grid-area: section-2content5;
-                
+                display: grid;
+                grid-template-columns: 16px auto 16px;
+                grid-template-areas: ". section-2-2 .";
+
+                @include xl{
+                    // grid-area: section-1;
                 }
-                button{
 
-                    background-color: $christmas;
-            
-                        }
-               
-    
+                >div {
+                    grid-area: section-2-2;
+
+                }
+
+
+                // @include xl {
+                //     display: grid;
+                //     grid-template-columns: 16px 480px auto;
+                // }
+
+            }
+        }
+
+        #section-2content {
+            grid-area: section-2content;
+
+        }
+
+        #section-2content2 {
+            grid-area: section-2content2;
+
+        }
+
+        #section-2content3 {
+            grid-area: section-2content3;
+
+        }
+
+        #section-2content4 {
+            grid-area: section-2content4;
+
+        }
+
+        #section-2content5 {
+            grid-area: section-2content5;
+
+        }
+
+        button {
+
+            background-color: $christmas;
+
+        }
+
+
+    }
+
+    }
+
+
+
 }
-
-
-}
-
-
-
-
-
-   
