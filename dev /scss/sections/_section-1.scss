@@ -1,3 +1,26 @@
 /* =============
     section-1
 ============= */
+
+#section-1{
+    
+
+    ul{
+
+        li{
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". section-1-content .";
+
+         >div{
+             grid-area: section-1-content;   
+
+         }
+
+        }
+
+
+
+
+}
+}

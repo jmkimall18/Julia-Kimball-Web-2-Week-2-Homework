@@ -2,10 +2,63 @@
     hero
 ============= */
 
-#hero {
-    display: grid;
+#hero{
+  
     img{
         width: 100%;
     }
-}
 
+    ul{
+
+        @include md{
+            display: grid;
+            grid-template-columns: 40% auto;
+            grid-template-areas: "hero1 hero2" 
+        }
+
+        @include lg{
+            display: grid;
+            grid-template-columns: 50% auto;
+            grid-template-areas: "hero1 hero2" 
+        }
+
+     li{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". hero-content .";
+
+            @include xl{
+                grid-template-columns: auto 480px 16px;
+            }
+
+            a{
+                grid-area: hero-content;
+            }
+
+    }
+
+    #hero1{
+
+        background-color: $darkpink;
+    }
+
+    #hero2{
+
+        background-color: $lightpink;
+        @include xl{
+            display: grid;
+            grid-template-columns: 16px 480px auto;
+    }
+        }
+
+    button{
+
+        background-color: $christmas;
+
+            }
+
+    
+
+    }
+
+}

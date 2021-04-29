@@ -548,6 +548,7 @@ footer > div {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". heading-1 .";
+  background-color: #fff;
 }
 @media (min-width: 1200px) {
   #heading-1 {
@@ -556,6 +557,9 @@ footer > div {
 }
 #heading-1 > div {
   grid-area: heading-1;
+}
+#heading-1 > div button {
+  background-color: #89514E;
 }
 
 /* =============
@@ -621,16 +625,64 @@ footer > div {
 /* =============
     hero
 ============= */
-#hero {
-  display: grid;
-}
 #hero img {
   width: 100%;
+}
+@media (min-width: 768px) {
+  #hero ul {
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-template-areas: "hero1 hero2";
+  }
+}
+@media (min-width: 1024px) {
+  #hero ul {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "hero1 hero2";
+  }
+}
+#hero ul li {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". hero-content .";
+}
+@media (min-width: 1200px) {
+  #hero ul li {
+    grid-template-columns: auto 480px 16px;
+  }
+}
+#hero ul li a {
+  grid-area: hero-content;
+}
+#hero ul #hero1 {
+  background-color: #A96562;
+}
+#hero ul #hero2 {
+  background-color: #C38583;
+}
+@media (min-width: 1200px) {
+  #hero ul #hero2 {
+    display: grid;
+    grid-template-columns: 16px 480px auto;
+  }
+}
+#hero ul button {
+  background-color: #89514E;
 }
 
 /* =============
     section-1
 ============= */
+#section-1 ul li {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". section-1-content .";
+}
+#section-1 ul li > div {
+  grid-area: section-1-content;
+}
+
 /* =============
     section-2
 ============= */
