@@ -3,6 +3,7 @@
 ============= */
 
 #section-2 {
+
     >div{
 
     @include md{
@@ -17,8 +18,15 @@
 @include xl{
     grid-template-columns: auto 1200px auto;
     }
-
 }
+
+    >div{
+            @include md{
+
+                grid-area: section-2;
+            }
+
+    }
 
 ul{
 
@@ -46,6 +54,10 @@ ul{
                 width: 100%;
             }
 
+            @include xl{
+                grid-template-columns: auto 480px 16px;
+            }
+
     section{
 
         display: grid;
@@ -53,13 +65,13 @@ ul{
 		grid-template-areas: ". section-2 .";
 
         >div{
-            grid-area: section-2;
+            grid-area: section-2-content;
         
         }
-    
+
     }
 }
-    
+
 #section-2content{
 grid-area: section-2content;
 
