@@ -771,3 +771,6 @@ footer > div {
 #section-2 ul #section-2content5 {
   grid-area: section-2content5;
 }
+#section-2 ul button {
+  background-color: #89514E;
+}
