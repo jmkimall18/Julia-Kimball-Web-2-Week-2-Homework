@@ -674,13 +674,40 @@ footer > div {
 /* =============
     section-1
 ============= */
+@media (min-width: 768px) {
+  #section-1 {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". section-1 .";
+  }
+}
+@media (min-width: 1200px) {
+  #section-1 {
+    grid-template-columns: auto 1000px auto;
+  }
+}
+#section-1 ul {
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  #section-1 ul {
+    grid-template-columns: 50% auto;
+    gap: 24px;
+    grid-area: section-1;
+  }
+}
 #section-1 ul li {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". section-1-content .";
+  background-color: #9EBC99;
 }
 #section-1 ul li > div {
   grid-area: section-1-content;
+}
+#section-1 ul button {
+  background-color: #89514E;
 }
 
 /* =============
