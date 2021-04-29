@@ -490,28 +490,54 @@ header {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". header .";
+  background-color: #4E7851;
 }
 header > div {
   grid-area: header;
-  border: 1px solid white;
 }
 
 /* =============
     Footer
 ============= */
-#footer {
+footer {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
 }
-#footer > div {
+@media (min-width: 1200px) {
+  footer {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+footer > div {
   grid-area: footer;
 }
 @media (min-width: 768px) {
-  #footer > div {
+  footer > div {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: "footera footer1 " "footera footer2";
+    grid-template-columns: 50% auto;
+    grid-template-areas: "footera f1" "footera f2";
+  }
+}
+@media (min-width: 1200px) {
+  footer > div {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "footera f1 f2";
+  }
+}
+@media (min-width: 768px) {
+  footer > div #footera {
+    grid-area: footera;
+  }
+}
+@media (min-width: 768px) {
+  footer > div #f1 {
+    grid-area: f1;
+  }
+}
+@media (min-width: 768px) {
+  footer > div #f2 {
+    grid-area: f2;
   }
 }
 
@@ -605,36 +631,6 @@ header > div {
 /* =============
     section-1
 ============= */
-#section-1 ul li {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". section-1 .";
-}
-#section-1 ul li > div {
-  grid-area: section-1;
-}
-@media (min-width: 768px) {
-  #section-1 ul li {
-    display: grid;
-    grid-template-columns: 40% auto;
-    grid-template-areas: "section-a section-b" "section-c section-d";
-  }
-}
-@media (min-width: 1024px) {
-  #section-1 ul li {
-    display: grid;
-    grid-template-columns: 50% auto;
-    grid-template-areas: "section-a section-b" "section-c section-d";
-  }
-}
-@media (min-width: 1200px) {
-  #section-1 ul li {
-    display: grid;
-    grid-template-columns: auto 480px 16px;
-    grid-template-areas: ". section-1 .";
-  }
-}
-
 /* =============
     section-2
 ============= */

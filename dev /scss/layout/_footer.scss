@@ -1,25 +1,59 @@
 /* =============
     Footer
 ============= */
-#footer {
+footer {
+
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". footer .";
 
->div{
-    grid-area: footer;
-             
+    @include xl{
+        grid-template-columns: auto 1200px auto; 
+    }
 
-             @include md{
-                display: grid;
-                grid-template-columns: 50% 50%;
-                grid-template-areas: "footera footer1 " 
-                "footera footer2";
-                
+  >div{
+    grid-area: footer;
+    @include md{
+        display: grid;
+        grid-template-columns: 50% auto; 
+        grid-template-areas: 
+        "footera f1"
+        "footera f2";
             }
 
+            @include xl{
+
+                grid-template-columns: repeat(3,1fr);
+                grid-template-areas: 
+        "footera f1 f2";
+            }
+
+        li{
+
+        }
+
+        #footera{
+
+            @include md{
+                grid-area: footera;
+            }
+        }
+
+        #f1{
+
+            @include md{
+                grid-area: f1;
+            }
+        }
+
+        #f2{
+
+            @include md{
+                grid-area: f2;
+            }
+        }
+
+        }
 
 }
 
-
-}
