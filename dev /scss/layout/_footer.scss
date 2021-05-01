@@ -45,6 +45,14 @@ footer {
             @include md{
                 grid-area: f1;
             }
+
+            input{ 
+                background-color: $vanilla;
+                border: none;
+                color: #1D322B;
+
+
+            }
         }
 
         #f2{
@@ -52,9 +60,49 @@ footer {
             @include md{
                 grid-area: f2;
             }
+
+            i{
+                color: $vanilla;
+        
+            }
         }
 
         }
 
+        h1{
+            color: #C38583;
+            font-weight: 400;
+            font-size: 30px;
+        }
+        h2{
+            color: #C1E4BB;
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        address{
+        
+                color: $vanilla;
+
+        }
+
+        a{
+        
+            color: $vanilla;
+
+    }
+ 
+
+    i{
+        color: #C38583;
+
+    }
+    button{
+
+        background-color: $christmas;
+        border: none;
+        color: $vanilla;
+
+            }
 }
 

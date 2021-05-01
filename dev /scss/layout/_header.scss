@@ -9,4 +9,16 @@ header {
         >div{
             grid-area: header;
                 }
+
+    h1{
+        color: $vanilla;
+        font-weight: 200;
+        font-size: 30px;
+    }
+
+    h2{
+        color: $vanilla;
+        font-size: 16px;
+        
+    }
 	}

@@ -40,10 +40,16 @@
         button{
 
             background-color: $christmas;
+            border: none;
+            color: $vanilla;
     
                 }
     
-
+                h1{
+                    color: $vanilla;
+                    font-weight: 400;
+                    font-size: 30px;
+                }
 
 }
 }

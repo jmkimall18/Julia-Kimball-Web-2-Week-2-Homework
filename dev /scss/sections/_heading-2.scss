@@ -10,4 +10,13 @@
         >div{
             grid-area: heading-2;
         }
+        h1{
+            color: #375E51;
+            font-weight: 200;
+            font-size: 30px;
+        }
+
+        @include xl {
+            grid-template-columns: auto 1200px auto;
+        }
 	}

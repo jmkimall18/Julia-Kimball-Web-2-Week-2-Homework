@@ -103,11 +103,27 @@
         }
 
         button {
-
+            
             background-color: $christmas;
-
+            border: none;
+            color: $vanilla;
+            
         }
 
+        h1{
+            color: #1D322B;
+            font-weight: 400;
+            font-size: 30px;
+        }
+
+        h4{
+            color: #1D322B;
+            
+        }
+        p{
+            color: #1D322B;
+
+        }
 
     }
 

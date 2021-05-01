@@ -40,6 +40,19 @@
     #hero1{
 
         background-color: $darkpink;
+        h1{
+            color: $vanilla;
+            font-weight: 300;
+            font-size: 30px;
+        }
+        h2{
+            color: $vanilla;
+            font-weight: 400;
+            font-size: 20px;
+        }
+        
+        i{ 
+            color: $vanilla;}
     }
 
     #hero2{
@@ -49,11 +62,31 @@
             display: grid;
             grid-template-columns: 16px 480px auto;
     }
+    h1{
+        color: $vanilla;
+        font-weight: 300;
+        font-size: 30px;
+    }
+    h2{
+        color: $vanilla;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    h3{
+        color: $vanilla;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    i{ 
+        color: $vanilla;}
         }
 
     button{
 
         background-color: $christmas;
+        border: none;
+        color: $vanilla;
 
             }
 
