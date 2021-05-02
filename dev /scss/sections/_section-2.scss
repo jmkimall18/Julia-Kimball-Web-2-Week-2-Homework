@@ -42,6 +42,7 @@
 
         li {
             background-color: $vanilla;
+            
 
             // @include xl {
             //     grid-template-columns: auto 480px 16px;
@@ -78,9 +79,33 @@
         }
 
         #section-2content {
-            grid-area: section-2content;
+    background-color: $vanilla;
+    background-image: url("../img/Interal-store/inside.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    @include md{
+        height: 200px;
+        width: 370px;
+    
 
-        }
+    }
+
+    @include lg{
+        height: 200px;
+        width: 370px;
+
+    }
+
+    @include xl{
+        height: 200px;
+        width: 370px;
+
+    }
+
+    
+    }
 
         #section-2content2 {
             grid-area: section-2content2;
@@ -101,6 +126,8 @@
             grid-area: section-2content5;
 
         }
+    
+    
 
         button {
             
@@ -124,11 +151,11 @@
             color: #1D322B;
 
         }
+        
 
     }
+    
 
     }
-
-
-
 }
+

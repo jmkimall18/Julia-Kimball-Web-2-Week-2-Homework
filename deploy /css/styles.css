@@ -925,7 +925,30 @@ footer button {
   grid-area: section-2-2;
 }
 #section-2 > div ul #section-2content {
-  grid-area: section-2content;
+  background-color: #F7E8DC;
+  background-image: url("../img/Interal-store/inside.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #section-2 > div ul #section-2content {
+    height: 200px;
+    width: 370px;
+  }
+}
+@media (min-width: 1024px) {
+  #section-2 > div ul #section-2content {
+    height: 200px;
+    width: 370px;
+  }
+}
+@media (min-width: 1200px) {
+  #section-2 > div ul #section-2content {
+    height: 200px;
+    width: 370px;
+  }
 }
 #section-2 > div ul #section-2content2 {
   grid-area: section-2content2;

@@ -21,12 +21,12 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy \/img\/blueberries\/blues.jpg" : {
+    "\/deploy \/img\/blueberries\/Berriesall.jpg" : {
       "ft" : 16384,
-      "iS" : 35850,
+      "iS" : 1800685,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/blueberries\/blues.jpg",
+      "oAP" : "\/deploy \/img\/blueberries\/Berriesall.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -34,12 +34,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/field2\/Fields.jpg" : {
+    "\/deploy \/img\/field2\/farmfield.jpg" : {
       "ft" : 16384,
-      "iS" : 33092,
+      "iS" : 3519943,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/field2\/Fields.jpg",
+      "oAP" : "\/deploy \/img\/field2\/farmfield.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -125,15 +125,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/Hayrides\/hayrides.png" : {
-      "ft" : 32768,
-      "iS" : 33385,
+    "\/deploy \/img\/Hayrides\/hay.jpg" : {
+      "ft" : 16384,
+      "iS" : 3279147,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/Hayrides\/hayrides.png",
+      "oAP" : "\/deploy \/img\/Hayrides\/hay.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -164,12 +164,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/Interal-store\/farm-veggies.jpg" : {
+    "\/deploy \/img\/Interal-store\/inside.jpeg" : {
       "ft" : 16384,
-      "iS" : 39652,
+      "iS" : 3385649,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/Interal-store\/farm-veggies.jpg",
+      "oAP" : "\/deploy \/img\/Interal-store\/inside.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -190,15 +190,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/people-food\/veg-stand.png" : {
-      "ft" : 32768,
-      "iS" : 37227,
+    "\/deploy \/img\/people-food\/farmstand.jpg" : {
+      "ft" : 16384,
+      "iS" : 2384627,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/people-food\/veg-stand.png",
+      "oAP" : "\/deploy \/img\/people-food\/farmstand.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
