@@ -679,7 +679,11 @@ footer button {
 /* =============
     hero
 ============= */
-#hero img {
+#hero {
+  background-image: url("../img/hero/hero3.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 252px;
   width: 100%;
 }
 @media (min-width: 768px) {
@@ -756,6 +760,16 @@ footer button {
   background-color: #89514E;
   border: none;
   color: #F7E8DC;
+}
+@media (min-width: 768px) {
+  #hero {
+    height: 500px;
+  }
+}
+@media (min-width: 1024px) {
+  #hero {
+    height: 630px;
+  }
 }
 
 /* =============

@@ -4,11 +4,10 @@
 
 #hero{
   
-    img{
-        width: 100%;
-    }
+
 
     ul{
+        
 
         @include md{
             display: grid;
@@ -23,6 +22,7 @@
         }
 
      li{
+         
             display: grid;
             grid-template-columns: 16px auto 16px;
             grid-template-areas: ". hero-content .";
@@ -91,7 +91,25 @@
             }
 
     
+           
+    
+    }
+    background-image: url("../img/hero/hero3.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 252px;
+    width: 100%;
+
+    @include md{
+        height: 500px;
 
     }
+
+    @include lg{
+        height: 630px;
+
+    }
+
+
 
 }
