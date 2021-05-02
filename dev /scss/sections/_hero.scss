@@ -6,6 +6,7 @@
   
 
 
+
     ul{
         
 
@@ -107,6 +108,11 @@
 
     @include lg{
         height: 630px;
+
+    }
+
+    @include xl{
+        height: 100vh;
 
     }
 

@@ -28,7 +28,7 @@
 
 
             @include lg{
-                grid-template-columns: 50% 50%;
+                grid-template-columns: 60% 40%;
                 grid-template-areas: 
                 "i1 i2" 
                 "il i2"
@@ -37,29 +37,85 @@
 
 
             @include xl{
-                grid-template-columns: 50% 50%;
+                grid-template-columns: 60% 40%;
                 grid-template-areas: 
                 "i1 i2" 
-                "il i2"
-                "i3 i2"
+                "i1 i3"
+                
             }
     
     #i1{ 
         grid-area: i1;
+
+    background-image: url("../img/kids-dad/kids.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 360px;
+    width: 100%;
+
+    @include md{
+        height: 594px;
+        background-position: right;
+    }
+
+    @include lg{
+        height: 630px;
+
+    }
+
+    @include xl{
+        height: 100vh;
+
+    }
     }
     #i2{ 
         grid-area: i2;
+
+    background-image: url("../img/strawberries/straws.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 515px;
+    width: 100%;
+
+    @include md{
+        height: 594px;
+
+    }
+
+    @include lg{
+        height: 630px;
+
+    }
+
+    @include xl{
+        height: 427px;
+
+    }
     }
     #i3{ 
+        grid-area: i3;
         display: none;
         @include xl{
-            display:list-item
-        }
+            display:list-item;
+        
+    background-image: url("../img/woman/women.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 427px;
+    width: 100%;
+
+
+    @include xl{
+        height: 428px;
+        width: 680px;
+    }
+
         } 
 
    
 }
 }
+    }
 }
 
 

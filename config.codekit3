@@ -177,12 +177,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/kids-dad\/group.jpg" : {
+    "\/deploy \/img\/kids-dad\/kids.jpg" : {
       "ft" : 16384,
-      "iS" : 400353,
+      "iS" : 2852846,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/kids-dad\/group.jpg",
+      "oAP" : "\/deploy \/img\/kids-dad\/kids.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -203,12 +203,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/strawberries\/Strawberries.jpg" : {
+    "\/deploy \/img\/strawberries\/straws.jpg" : {
       "ft" : 16384,
-      "iS" : 186196,
+      "iS" : 4249000,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/strawberries\/Strawberries.jpg",
+      "oAP" : "\/deploy \/img\/strawberries\/straws.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -242,12 +242,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/woman\/girl-box.jpg" : {
+    "\/deploy \/img\/woman\/women.jpg" : {
       "ft" : 16384,
-      "iS" : 118354,
+      "iS" : 2191233,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/woman\/girl-box.jpg",
+      "oAP" : "\/deploy \/img\/woman\/women.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
