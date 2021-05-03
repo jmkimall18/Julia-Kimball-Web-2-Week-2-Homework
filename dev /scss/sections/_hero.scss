@@ -2,119 +2,134 @@
     hero
 ============= */
 
-#hero{
-  
+#hero {
+
+    
+
+    #hero-img{
+        background-image: url("../img/hero/hero3.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 252px;
+        width: 100%;
+    
+        @include md {
+            height: 500px;
+    
+        }
+    
+        @include lg {
+            height: 630px;
+    
+        }
+    
+        @include xl {
+            height: 100vh;
+    
+        }
+    }
 
 
 
-    ul{
-        
 
-        @include md{
+
+    ul {
+
+
+        @include md {
             display: grid;
             grid-template-columns: 40% auto;
-            grid-template-areas: "hero1 hero2" 
+            grid-template-areas: "hero1 hero2"
         }
 
-        @include lg{
+        @include lg {
             display: grid;
             grid-template-columns: 50% auto;
-            grid-template-areas: "hero1 hero2" 
+            grid-template-areas: "hero1 hero2"
         }
 
-     li{
-         
+        li {
+
             display: grid;
             grid-template-columns: 16px auto 16px;
             grid-template-areas: ". hero-content .";
 
-            @include xl{
+            @include xl {
                 grid-template-columns: auto 480px 16px;
             }
 
-            a{
+            a {
                 grid-area: hero-content;
             }
 
-    }
-
-    #hero1{
-
-        background-color: $darkpink;
-        h1{
-            color: $vanilla;
-            font-weight: 300;
-            font-size: 30px;
-        }
-        h2{
-            color: $vanilla;
-            font-weight: 400;
-            font-size: 20px;
-        }
-        
-        i{ 
-            color: $vanilla;}
-    }
-
-    #hero2{
-
-        background-color: $lightpink;
-        @include xl{
-            display: grid;
-            grid-template-columns: 16px 480px auto;
-    }
-    h1{
-        color: $vanilla;
-        font-weight: 300;
-        font-size: 30px;
-    }
-    h2{
-        color: $vanilla;
-        font-weight: 400;
-        font-size: 20px;
-    }
-    h3{
-        color: $vanilla;
-        font-weight: 400;
-        font-size: 15px;
-    }
-
-    i{ 
-        color: $vanilla;}
         }
 
-    button{
+        #hero1 {
 
-        background-color: $christmas;
-        border: none;
-        color: $vanilla;
+            background-color: $darkpink;
 
+            h1 {
+                color: $vanilla;
+                font-weight: 300;
+                font-size: 30px;
             }
 
-    
-           
-    
+            h2 {
+                color: $vanilla;
+                font-weight: 400;
+                font-size: 20px;
+            }
+
+            i {
+                color: $vanilla;
+            }
+        }
+
+        #hero2 {
+
+            background-color: $lightpink;
+
+            @include xl {
+                display: grid;
+                grid-template-columns: 16px 480px auto;
+            }
+
+            h1 {
+                color: $vanilla;
+                font-weight: 300;
+                font-size: 30px;
+            }
+
+            h2 {
+                color: $vanilla;
+                font-weight: 400;
+                font-size: 20px;
+            }
+
+            h3 {
+                color: $vanilla;
+                font-weight: 400;
+                font-size: 15px;
+            }
+
+            i {
+                color: $vanilla;
+            }
+        }
+
+        button {
+
+            background-color: $christmas;
+            border: none;
+            color: $vanilla;
+
+        }
+
+
+
+
     }
-    background-image: url("../img/hero/hero3.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 252px;
-    width: 100%;
 
-    @include md{
-        height: 500px;
-
-    }
-
-    @include lg{
-        height: 630px;
-
-    }
-
-    @include xl{
-        height: 100vh;
-
-    }
 
 
 

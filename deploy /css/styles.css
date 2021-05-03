@@ -732,12 +732,27 @@ footer button {
 /* =============
     hero
 ============= */
-#hero {
+#hero #hero-img {
   background-image: url("../img/hero/hero3.jpg");
   background-position: center;
   background-size: cover;
   height: 252px;
   width: 100%;
+}
+@media (min-width: 768px) {
+  #hero #hero-img {
+    height: 500px;
+  }
+}
+@media (min-width: 1024px) {
+  #hero #hero-img {
+    height: 630px;
+  }
+}
+@media (min-width: 1200px) {
+  #hero #hero-img {
+    height: 100vh;
+  }
 }
 @media (min-width: 768px) {
   #hero ul {
@@ -813,21 +828,6 @@ footer button {
   background-color: #89514E;
   border: none;
   color: #F7E8DC;
-}
-@media (min-width: 768px) {
-  #hero {
-    height: 500px;
-  }
-}
-@media (min-width: 1024px) {
-  #hero {
-    height: 630px;
-  }
-}
-@media (min-width: 1200px) {
-  #hero {
-    height: 100vh;
-  }
 }
 
 /* =============
@@ -910,57 +910,60 @@ footer button {
     grid-template-areas: "section-2content section-2content section-2content2 section-2content2 section-2content3 section-2content3" ". section-2content4 section-2content4 section-2content5 section-2content5 .";
   }
 }
-#section-2 > div ul li {
-  background-color: #F7E8DC;
-}
-#section-2 > div ul li img {
+#section-2 > div ul li .section-2-img {
+  background-position: center;
+  background-size: cover;
+  height: 200px;
   width: 100%;
 }
 #section-2 > div ul li section {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". section-2-2 .";
+  background-color: #F7E8DC;
 }
 #section-2 > div ul li section > div {
   grid-area: section-2-2;
 }
-#section-2 > div ul #section-2content {
-  background-color: #F7E8DC;
-  background-image: url("../img/Interal-store/inside.jpeg");
-  background-position: center;
-  background-size: cover;
-  height: 200px;
-  width: 100%;
-}
 @media (min-width: 768px) {
   #section-2 > div ul #section-2content {
-    height: 200px;
-    width: 370px;
+    grid-area: section-2content;
   }
 }
-@media (min-width: 1024px) {
-  #section-2 > div ul #section-2content {
-    height: 200px;
-    width: 370px;
+#section-2 > div ul #section-2content .section-2-img {
+  background-image: url("../img/Interal-store/inside.jpeg");
+}
+@media (min-width: 768px) {
+  #section-2 > div ul #section-2content2 {
+    grid-area: section-2content2;
   }
 }
-@media (min-width: 1200px) {
-  #section-2 > div ul #section-2content {
-    height: 200px;
-    width: 370px;
+#section-2 > div ul #section-2content2 .section-2-img {
+  background-image: url("../img/blueberries/Berriesall.jpg");
+}
+@media (min-width: 768px) {
+  #section-2 > div ul #section-2content3 {
+    grid-area: section-2content3;
   }
 }
-#section-2 > div ul #section-2content2 {
-  grid-area: section-2content2;
+#section-2 > div ul #section-2content3 .section-2-img {
+  background-image: url("../img/people-food/farmstand.jpg");
 }
-#section-2 > div ul #section-2content3 {
-  grid-area: section-2content3;
+@media (min-width: 768px) {
+  #section-2 > div ul #section-2content4 {
+    grid-area: section-2content4;
+  }
 }
-#section-2 > div ul #section-2content4 {
-  grid-area: section-2content4;
+#section-2 > div ul #section-2content4 .section-2-img {
+  background-image: url("../img/Hayrides/hay.jpg");
 }
-#section-2 > div ul #section-2content5 {
-  grid-area: section-2content5;
+@media (min-width: 768px) {
+  #section-2 > div ul #section-2content5 {
+    grid-area: section-2content5;
+  }
+}
+#section-2 > div ul #section-2content5 .section-2-img {
+  background-image: url("../img/field2/farmfield.jpg");
 }
 #section-2 > div ul button {
   background-color: #89514E;
