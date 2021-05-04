@@ -635,10 +635,12 @@ footer button {
   border: none;
   color: #1D322B;
   font-size: 0.875rem;
+  font-weight: 200;
 }
 @media (min-width: 768px) {
   #heading-1 > div input {
     font-size: 1.875rem;
+    font-weight: 200;
   }
 }
 @media (min-width: 1024px) {
@@ -670,7 +672,7 @@ footer button {
 }
 #heading-2 h1 {
   color: #375E51;
-  font-weight: 200;
+  font-weight: 200px;
   font-size: 30px;
 }
 @media (min-width: 1200px) {

@@ -27,11 +27,13 @@
                 border: none;
                 color: #1D322B;
                 font-size: rem-calc(14);
+                font-weight: 200;
                 @include md{
 
                     // 16px + 1m
                     // 1em = 1 rem
                     font-size: rem-calc(30);
+                    font-weight: 200;
                 }
                 @include lg{
 
