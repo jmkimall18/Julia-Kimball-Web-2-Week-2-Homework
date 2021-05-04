@@ -26,6 +26,27 @@
                 background-color: $white;
                 border: none;
                 color: #1D322B;
+                font-size: rem-calc(14);
+                @include md{
+
+                    // 16px + 1m
+                    // 1em = 1 rem
+                    font-size: rem-calc(30);
+                }
+                @include lg{
+
+                    // 16px + 1m
+                    // 1em = 1 rem
+                    font-size: rem-calc(35);
+                }
+                @include xl{
+
+                    // 16px + 1m
+                    // 1em = 1 rem
+                    font-size: rem-calc(35);
+                }
+
+
 
 
             }

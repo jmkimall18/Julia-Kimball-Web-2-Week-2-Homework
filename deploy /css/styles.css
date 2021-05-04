@@ -494,11 +494,42 @@ header > div img {
 header h1 {
   color: #F7E8DC;
   font-weight: 200;
-  font-size: 30px;
+  font-size: 0.875rem;
+}
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 1024px) {
+  header h1 {
+    font-size: 2.1875rem;
+  }
+}
+@media (min-width: 1200px) {
+  header h1 {
+    font-size: 2.1875rem;
+  }
 }
 header h2 {
   color: #F7E8DC;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+@media (min-width: 768px) {
+  header h2 {
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 1024px) {
+  header h2 {
+    font-size: 2.1875rem;
+  }
+}
+@media (min-width: 1200px) {
+  header h2 {
+    font-size: 2.1875rem;
+  }
 }
 
 /* =============
@@ -603,6 +634,22 @@ footer button {
   background-color: #fff;
   border: none;
   color: #1D322B;
+  font-size: 0.875rem;
+}
+@media (min-width: 768px) {
+  #heading-1 > div input {
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 1024px) {
+  #heading-1 > div input {
+    font-size: 2.1875rem;
+  }
+}
+@media (min-width: 1200px) {
+  #heading-1 > div input {
+    font-size: 2.1875rem;
+  }
 }
 #heading-1 > div button {
   background-color: #89514E;
