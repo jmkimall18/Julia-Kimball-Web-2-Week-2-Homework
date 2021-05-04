@@ -4,9 +4,7 @@
 
 #hero-2{ 
          display: grid;
-         img{
-            width: 100%;
-        }
+         
     >div{
 
         ul{
@@ -88,26 +86,26 @@
     }
 
     @include xl{
-        height: 427px;
+        height: 470px;
 
     }
     }
     #i3{ 
         grid-area: i3;
         display: none;
-        @include xl{
-            display:list-item;
+        
         
     background-image: url("../img/woman/women.jpg");
     background-position: center;
     background-size: cover;
-    height: 427px;
+    height: 450px;
     width: 100%;
 
 
     @include xl{
-        height: 428px;
-        width: 680px;
+        display: list-item;
+        height: 470px;
+        width: 100%;
     }
 
         } 
@@ -116,6 +114,6 @@
 }
 }
     }
-}
+
 
 

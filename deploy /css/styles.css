@@ -487,6 +487,10 @@ header {
 header > div {
   grid-area: header;
 }
+header > div img {
+  width: 130px;
+  height: 77px;
+}
 header h1 {
   color: #F7E8DC;
   font-weight: 200;
@@ -634,9 +638,6 @@ footer button {
 #hero-2 {
   display: grid;
 }
-#hero-2 img {
-  width: 100%;
-}
 #hero-2 > div ul {
   gap: 0px;
   display: grid;
@@ -705,27 +706,23 @@ footer button {
 }
 @media (min-width: 1200px) {
   #hero-2 > div ul #i2 {
-    height: 427px;
+    height: 470px;
   }
 }
 #hero-2 > div ul #i3 {
   grid-area: i3;
   display: none;
+  background-image: url("../img/woman/women.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
 }
 @media (min-width: 1200px) {
   #hero-2 > div ul #i3 {
     display: list-item;
-    background-image: url("../img/woman/women.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 427px;
+    height: 470px;
     width: 100%;
-  }
-}
-@media (min-width: 1200px) and (min-width: 1200px) {
-  #hero-2 > div ul #i3 {
-    height: 428px;
-    width: 680px;
   }
 }
 
