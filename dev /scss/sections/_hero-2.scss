@@ -17,7 +17,7 @@
        grid-area: hero-2-content;
        grid-template-areas:
        "i1" "i2" "i3";
-       grid-template-rows: 360px 486px;
+      
    
        
        @include md{
@@ -48,12 +48,7 @@
            
        }
 
-       il{
-        background-position: center;
-background-size: cover;
-
-       }
-       
+      
 
 #i1{ 
    grid-area: i1;

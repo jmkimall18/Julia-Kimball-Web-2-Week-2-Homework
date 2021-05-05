@@ -138,16 +138,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/header\/logoFrame.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy \/img\/header\/logoFrame.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/deploy \/img\/header\/logoFrame2.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -223,28 +213,41 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/veggies\/vegs.png" : {
-      "ft" : 32768,
-      "iS" : 4434,
+    "\/deploy \/img\/veggies\/veggiess.jpg" : {
+      "ft" : 16384,
+      "iS" : 247270,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/veggies\/vegs.png",
+      "oAP" : "\/deploy \/img\/veggies\/veggiess.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/wholesale\/berries.png" : {
-      "ft" : 32768,
-      "iS" : 4705,
+    "\/deploy \/img\/veggies\/veggiess2.jpg" : {
+      "ft" : 16384,
+      "iS" : 13457,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/wholesale\/berries.png",
+      "oAP" : "\/deploy \/img\/veggies\/veggiess2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy \/img\/wholesale\/Berries.jpg" : {
+      "ft" : 16384,
+      "iS" : 13148,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy \/img\/wholesale\/Berries.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
