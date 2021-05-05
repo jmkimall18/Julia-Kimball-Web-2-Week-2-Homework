@@ -4,117 +4,115 @@
 
 #hero-2{ 
         
-         display: grid;
+    display: grid;
 
 
-        ul{
-        
-            display: grid;
-            grid-area: hero-2-content;
-            grid-template-areas:
-            "i1" "i2" "i3";
-        
-            
-            @include md{
-                grid-template-columns: 50% 50%;
-                grid-template-areas: 
-                "i1 i2" 
-                
-            }
-
-
-            @include lg{
-                grid-template-columns: 60% 40%;
-                grid-template-areas: 
-                "i1 i2" 
-                "il i2"
-                
-            }
-
-
-            @include xl{
-                
-                grid-template-columns: 65% 35%;
-                grid-columns-row: 377px 377px;
-                grid-template-areas: 
-                "i1 i2" 
-                "i1 i3"
-                
-            }
-            
-    
-    #i1{ 
-        grid-area: i1;
-
-    background-image: url("../img/kids-dad/kids.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 360px;
-    width: 100%;
-
-    @include md{
-        height: 594px;
-    }
-
-    @include lg{
-        height: 630px;
-
-    }
-
-    @include xl{
-        height: 100vh;
-
-    }
-    }
-
-    #i2{ 
-        grid-area: i2;
-
-    background-image: url("../img/strawberries/straws.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 360px;
-    width: 100%;
-
-    @include md{
-        background-position: right;
-        height: 594px;
-    }
-    
-
-    @include lg{
-        height: 630px;
-
-    }
-
-    @include xl{
-        height: 450px;
-
-    }
-    }
-
-    #i3{ 
-        display: none;
-    background-position: top;
-    background-size: cover;
-        
-    background-image: url("../img/woman/women.jpg");
-    
-
-    @include xl{
-        height: 470px;
-        display: list-item;
-        grid-area: i3;
-        
-
-    }
-
-        } 
-
+   ul{
    
-}
-}
-    
+       display: grid;
+       grid-area: hero-2-content;
+       grid-template-areas:
+       "i1" "i2" "i3";
+   
+       
+       @include md{
+           grid-template-columns: 50% 50%;
+           grid-template-areas: 
+           "i1 i2" 
+           
+       }
 
+
+       @include lg{
+           grid-template-columns: 60% 40%;
+           grid-template-areas: 
+           "i1 i2" 
+           "il i2"
+           
+       }
+
+
+       @include xl{
+           
+           grid-template-columns: 65% 35%;
+           grid-columns-row: 377px 377px;
+           grid-template-areas: 
+           "i1 i2" 
+           "i1 i3"
+           
+       }
+       
+
+#i1{ 
+   grid-area: i1;
+
+background-image: url("../img/kids-dad/kids.jpg");
+background-position: center;
+background-size: cover;
+height: 360px;
+width: 100%;
+
+@include md{
+   height: 594px;
+}
+
+@include lg{
+   height: 630px;
+
+}
+
+@include xl{
+   height: 100vh;
+
+}
+}
+
+#i2{ 
+   grid-area: i2;
+
+background-image: url("../img/strawberries/straws.jpg");
+background-position: center;
+background-size: cover;
+height: 360px;
+width: 100%;
+
+@include md{
+   background-position: right;
+   height: 594px;
+}
+
+
+@include lg{
+   height: 630px;
+
+}
+
+@include xl{
+   height: 450px;
+
+}
+}
+
+#i3{ 
+   display: none;
+background-position: top;
+background-size: cover;
+   
+background-image: url("../img/woman/women.jpg");
+
+
+@include xl{
+   height: 470px;
+   display: list-item;
+   grid-area: i3;
+   
+
+}
+
+   } 
+
+
+}
+}
 
 
