@@ -35,7 +35,7 @@
        @include xl{
            
            grid-template-columns: 65% 35%;
-           grid-columns-row: 377px 377px;
+           grid-template-rows: 377px 377px;
            grid-template-areas: 
            "i1 i2" 
            "i1 i3"
@@ -51,20 +51,22 @@ background-position: center;
 background-size: cover;
 height: 360px;
 width: 100%;
-
 @include md{
-   height: 594px;
-}
-
-@include lg{
-   height: 630px;
-
-}
-
-@include xl{
-   height: 100vh;
-
-}
+    background-position: right;
+    height: 594px;
+ }
+ 
+ 
+ @include lg{
+    height: 630px;
+ 
+ }
+ @include xl{
+   
+    height: 754px;
+ 
+ }
+ 
 }
 
 #i2{ 
@@ -86,11 +88,12 @@ width: 100%;
    height: 630px;
 
 }
-
 @include xl{
-   height: 450px;
+   
+    background-position: top;
+ 
+ }
 
-}
 }
 
 #i3{ 
@@ -102,7 +105,7 @@ background-image: url("../img/woman/women.jpg");
 
 
 @include xl{
-   height: 470px;
+   
    display: list-item;
    grid-area: i3;
    

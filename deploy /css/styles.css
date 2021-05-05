@@ -707,7 +707,7 @@ footer button {
 @media (min-width: 1200px) {
   #hero-2 ul {
     grid-template-columns: 65% 35%;
-    grid-columns-row: 377px 377px;
+    grid-template-rows: 377px 377px;
     grid-template-areas: "i1 i2" "i1 i3";
   }
 }
@@ -721,6 +721,7 @@ footer button {
 }
 @media (min-width: 768px) {
   #hero-2 ul #i1 {
+    background-position: right;
     height: 594px;
   }
 }
@@ -731,7 +732,7 @@ footer button {
 }
 @media (min-width: 1200px) {
   #hero-2 ul #i1 {
-    height: 100vh;
+    height: 754px;
   }
 }
 #hero-2 ul #i2 {
@@ -755,7 +756,7 @@ footer button {
 }
 @media (min-width: 1200px) {
   #hero-2 ul #i2 {
-    height: 450px;
+    background-position: top;
   }
 }
 #hero-2 ul #i3 {
@@ -766,7 +767,6 @@ footer button {
 }
 @media (min-width: 1200px) {
   #hero-2 ul #i3 {
-    height: 470px;
     display: list-item;
     grid-area: i3;
   }
