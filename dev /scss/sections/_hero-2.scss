@@ -4,15 +4,20 @@
 
 #hero-2{ 
         
-    display: grid;
+    
+    @include xl {
+        display: grid;
+        
+    }
 
-
+   
    ul{
    
        display: grid;
        grid-area: hero-2-content;
        grid-template-areas:
        "i1" "i2" "i3";
+       grid-template-rows: 360px 486px;
    
        
        @include md{
@@ -35,11 +40,18 @@
        @include xl{
            
            grid-template-columns: 65% 35%;
+
            grid-template-rows: 377px 377px;
            grid-template-areas: 
            "i1 i2" 
            "i1 i3"
            
+       }
+
+       il{
+        background-position: center;
+background-size: cover;
+
        }
        
 
