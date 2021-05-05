@@ -672,8 +672,8 @@ footer button {
 }
 #heading-2 h1 {
   color: #375E51;
-  font-weight: 200px;
-  font-size: 30px;
+  font-size: 1.875rem;
+  font-weight: 200;
 }
 @media (min-width: 1200px) {
   #heading-2 {
@@ -687,31 +687,31 @@ footer button {
 #hero-2 {
   display: grid;
 }
-#hero-2 > div ul {
-  gap: 0px;
+#hero-2 ul {
   display: grid;
   grid-area: hero-2-content;
   grid-template-areas: "i1" "i2" "i3";
 }
 @media (min-width: 768px) {
-  #hero-2 > div ul {
+  #hero-2 ul {
     grid-template-columns: 50% 50%;
     grid-template-areas: "i1 i2";
   }
 }
 @media (min-width: 1024px) {
-  #hero-2 > div ul {
+  #hero-2 ul {
     grid-template-columns: 60% 40%;
     grid-template-areas: "i1 i2" "il i2";
   }
 }
 @media (min-width: 1200px) {
-  #hero-2 > div ul {
-    grid-template-columns: 60% 40%;
+  #hero-2 ul {
+    grid-template-columns: 65% 35%;
+    grid-columns-row: 377px 377px;
     grid-template-areas: "i1 i2" "i1 i3";
   }
 }
-#hero-2 > div ul #i1 {
+#hero-2 ul #i1 {
   grid-area: i1;
   background-image: url("../img/kids-dad/kids.jpg");
   background-position: center;
@@ -720,58 +720,55 @@ footer button {
   width: 100%;
 }
 @media (min-width: 768px) {
-  #hero-2 > div ul #i1 {
+  #hero-2 ul #i1 {
     height: 594px;
-    background-position: right;
   }
 }
 @media (min-width: 1024px) {
-  #hero-2 > div ul #i1 {
+  #hero-2 ul #i1 {
     height: 630px;
   }
 }
 @media (min-width: 1200px) {
-  #hero-2 > div ul #i1 {
+  #hero-2 ul #i1 {
     height: 100vh;
   }
 }
-#hero-2 > div ul #i2 {
+#hero-2 ul #i2 {
   grid-area: i2;
   background-image: url("../img/strawberries/straws.jpg");
   background-position: center;
   background-size: cover;
-  height: 515px;
+  height: 360px;
   width: 100%;
 }
 @media (min-width: 768px) {
-  #hero-2 > div ul #i2 {
+  #hero-2 ul #i2 {
+    background-position: right;
     height: 594px;
   }
 }
 @media (min-width: 1024px) {
-  #hero-2 > div ul #i2 {
+  #hero-2 ul #i2 {
     height: 630px;
   }
 }
 @media (min-width: 1200px) {
-  #hero-2 > div ul #i2 {
-    height: 470px;
+  #hero-2 ul #i2 {
+    height: 450px;
   }
 }
-#hero-2 > div ul #i3 {
-  grid-area: i3;
+#hero-2 ul #i3 {
   display: none;
-  background-image: url("../img/woman/women.jpg");
-  background-position: center;
+  background-position: top;
   background-size: cover;
-  height: 450px;
-  width: 100%;
+  background-image: url("../img/woman/women.jpg");
 }
 @media (min-width: 1200px) {
-  #hero-2 > div ul #i3 {
-    display: list-item;
+  #hero-2 ul #i3 {
     height: 470px;
-    width: 100%;
+    display: list-item;
+    grid-area: i3;
   }
 }
 
