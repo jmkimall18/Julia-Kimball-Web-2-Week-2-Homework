@@ -5,35 +5,29 @@
 #hero-2{ 
         
     
-    @include xl {
-        display: grid;
-        
-    }
-
    
+       
    ul{
    
        display: grid;
        grid-area: hero-2-content;
-       grid-template-areas:
-       "i1" "i2" "i3";
+    grid-template-areas:
+    "i1" "i2" "i3";
+       grid-template-rows: 360px 486px;
       
    
        
        @include md{
            grid-template-columns: 50% 50%;
            grid-template-areas: 
-           "i1 i2" 
-           
+           "i1 i2";
+           grid-template-rows: 624px; 
        }
 
 
        @include lg{
-           grid-template-columns: 60% 40%;
-           grid-template-areas: 
-           "i1 i2" 
-           "il i2"
-           
+           grid-template-columns: 60% auto;
+          
        }
 
 
@@ -48,68 +42,51 @@
            
        }
 
-      
+      li{
+        background-position: center;
+        background-size: cover;
 
-#i1{ 
+      }
+
+            #i1{ 
    grid-area: i1;
 
 background-image: url("../img/kids-dad/kids.jpg");
-background-position: center;
-background-size: cover;
-height: 360px;
-width: 100%;
-@include md{
-    background-position: right;
-    height: 594px;
- }
+
+
  
- 
- @include lg{
-    height: 630px;
- 
- }
  @include xl{
    
-    height: 754px;
- 
+    grid-area: i1;
  }
  
-}
+            }
 
-#i2{ 
+
+
+        #i2{ 
    grid-area: i2;
 
 background-image: url("../img/strawberries/straws.jpg");
-background-position: center;
-background-size: cover;
-height: 360px;
-width: 100%;
 
 @include md{
-   background-position: right;
-   height: 594px;
-}
-
-
-@include lg{
-   height: 630px;
+background-position: bottom;
 
 }
+
 @include xl{
    
     background-position: top;
+    grid-area: i2;
  
  }
+            }
 
-}
 
-#i3{ 
-   display: none;
-background-position: top;
-background-size: cover;
-   
+
+            #i3{ 
+display: none;
 background-image: url("../img/woman/women.jpg");
-
 
 @include xl{
    
@@ -119,7 +96,7 @@ background-image: url("../img/woman/women.jpg");
 
 }
 
-   } 
+                } 
 
 
 }

@@ -684,26 +684,22 @@ footer button {
 /* =============
     hero-2
 ============= */
-@media (min-width: 1200px) {
-  #hero-2 {
-    display: grid;
-  }
-}
 #hero-2 ul {
   display: grid;
   grid-area: hero-2-content;
   grid-template-areas: "i1" "i2" "i3";
+  grid-template-rows: 360px 486px;
 }
 @media (min-width: 768px) {
   #hero-2 ul {
     grid-template-columns: 50% 50%;
     grid-template-areas: "i1 i2";
+    grid-template-rows: 624px;
   }
 }
 @media (min-width: 1024px) {
   #hero-2 ul {
-    grid-template-columns: 60% 40%;
-    grid-template-areas: "i1 i2" "il i2";
+    grid-template-columns: 60% auto;
   }
 }
 @media (min-width: 1200px) {
@@ -713,58 +709,36 @@ footer button {
     grid-template-areas: "i1 i2" "i1 i3";
   }
 }
+#hero-2 ul li {
+  background-position: center;
+  background-size: cover;
+}
 #hero-2 ul #i1 {
   grid-area: i1;
   background-image: url("../img/kids-dad/kids.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 360px;
-  width: 100%;
-}
-@media (min-width: 768px) {
-  #hero-2 ul #i1 {
-    background-position: right;
-    height: 594px;
-  }
-}
-@media (min-width: 1024px) {
-  #hero-2 ul #i1 {
-    height: 630px;
-  }
 }
 @media (min-width: 1200px) {
   #hero-2 ul #i1 {
-    height: 754px;
+    grid-area: i1;
   }
 }
 #hero-2 ul #i2 {
   grid-area: i2;
   background-image: url("../img/strawberries/straws.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 360px;
-  width: 100%;
 }
 @media (min-width: 768px) {
   #hero-2 ul #i2 {
-    background-position: right;
-    height: 594px;
-  }
-}
-@media (min-width: 1024px) {
-  #hero-2 ul #i2 {
-    height: 630px;
+    background-position: bottom;
   }
 }
 @media (min-width: 1200px) {
   #hero-2 ul #i2 {
     background-position: top;
+    grid-area: i2;
   }
 }
 #hero-2 ul #i3 {
   display: none;
-  background-position: top;
-  background-size: cover;
   background-image: url("../img/woman/women.jpg");
 }
 @media (min-width: 1200px) {
