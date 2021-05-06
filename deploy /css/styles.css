@@ -912,23 +912,18 @@ footer button {
 }
 #section-1 ul li > div aside div {
   background-position: center;
-  background-size: cover;
   border: 4px #fff solid;
   height: 85px;
   width: 85px;
   border-radius: 100%;
 }
-@media (min-width: 768px) {
-  #section-1 ul li > div aside div {
-    height: 113px;
-    width: 113px;
-  }
+#section-1 ul li > div aside #planning-left {
+  background: url("../img/veggies/veggiess2.jpg");
+  background-size: cover;
 }
-#section-1 ul li > div aside div #planningleft {
-  background-image: url("..//img/veggies/veggiess2/planningleft.jpg");
-}
-#section-1 ul li > div aside div #planningright {
-  background-image: url("..//img/wholesale/Berries/planningright.jpg");
+#section-1 ul li > div aside #planning-right {
+  background: url("../img/wholesale/Berries.jpg");
+  background-size: cover;
 }
 #section-1 button {
   background-color: #89514E;

@@ -30,7 +30,7 @@
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". section-1-content .";
         background-color: $garden;
-
+        
 
          >div{
              grid-area: section-1-content;   
@@ -40,36 +40,38 @@
              }
 
              aside{
-                div{
+                 div{
+              
 
         background-position: center;
-        background-size: cover;
         border: 4px $white solid;
         height: 85px;
         width: 85px;
         border-radius: 100%;
-
-        @include md{
-            height: 113px;
-        width: 113px;
-        }
+                 }
+    
                   
                             
-        #planningleft{
-            background-image: url("..//img/veggies/veggiess2/planningleft.jpg");
+        #planning-left{
+
+            background: url("../img/veggies/veggiess2.jpg");
+            background-size: cover;
         }
 
-        #planningright{
-            background-image: url("..//img/wholesale/Berries/planningright.jpg");
+        #planning-right{
+            
+            background: url("../img/wholesale/Berries.jpg");
+            background-size: cover;
         }
-                        }
+    }
+                        
                 }
 
         
             }
         }
     
-        }
+        
 
         button{
 
@@ -84,14 +86,7 @@
                     font-weight: 400;
                     font-size: 30px;
                 }
-
-
-
-
-
-
-
-    }
+}
 
 
 
