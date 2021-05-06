@@ -562,6 +562,12 @@ footer > div {
     grid-template-areas: "footera f1 f2";
   }
 }
+footer > div li {
+  display: flex;
+}
+footer > div div {
+  display: flex;
+}
 @media (min-width: 768px) {
   footer > div #footera {
     grid-area: footera;
@@ -890,6 +896,7 @@ footer button {
   height: 85px;
   width: 85px;
   border-radius: 100%;
+  image-orientation: right;
 }
 #section-1 ul li > div aside #planning-left {
   background: url("../img/veggies/veggiess2.jpg");

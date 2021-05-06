@@ -30,11 +30,15 @@ footer {
             }
 
         li{
-
+            display: flex;
+        }
+        div{
+            display: flex;
         }
 
         #footera{
 
+            
             @include md{
                 grid-area: footera;
             }
@@ -56,6 +60,7 @@ footer {
         }
 
         #f2{
+       
 
             @include md{
                 grid-area: f2;
@@ -63,7 +68,8 @@ footer {
 
             i{
                 color: $vanilla;
-        
+               
+                
             }
         }
 
