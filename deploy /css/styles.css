@@ -491,43 +491,43 @@ header > div img {
   width: 130px;
   height: 77px;
 }
-header h1 {
+header section h1 {
   color: #F7E8DC;
   font-weight: 200;
   font-size: 0.875rem;
 }
 @media (min-width: 768px) {
-  header h1 {
+  header section h1 {
     font-size: 1.875rem;
   }
 }
 @media (min-width: 1024px) {
-  header h1 {
+  header section h1 {
     font-size: 2.1875rem;
   }
 }
 @media (min-width: 1200px) {
-  header h1 {
+  header section h1 {
     font-size: 2.1875rem;
   }
 }
-header h2 {
+header section h2 {
   color: #F7E8DC;
   font-weight: 500;
   font-size: 0.875rem;
 }
 @media (min-width: 768px) {
-  header h2 {
+  header section h2 {
     font-size: 1.875rem;
   }
 }
 @media (min-width: 1024px) {
-  header h2 {
+  header section h2 {
     font-size: 2.1875rem;
   }
 }
 @media (min-width: 1200px) {
-  header h2 {
+  header section h2 {
     font-size: 2.1875rem;
   }
 }
@@ -890,13 +890,15 @@ footer button {
 #section-1 ul li > div {
   grid-area: section-1-content;
 }
+#section-1 ul li > div aside {
+  display: flex;
+}
 #section-1 ul li > div aside div {
   background-position: center;
   border: 4px #fff solid;
   height: 85px;
   width: 85px;
   border-radius: 100%;
-  image-orientation: right;
 }
 #section-1 ul li > div aside #planning-left {
   background: url("../img/veggies/veggiess2.jpg");
