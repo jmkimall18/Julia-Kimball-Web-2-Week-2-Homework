@@ -889,8 +889,6 @@ footer button {
 }
 #section-1 ul li > div {
   grid-area: section-1-content;
-}
-#section-1 ul li > div aside {
   display: flex;
 }
 #section-1 ul li > div aside div {

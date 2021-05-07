@@ -36,7 +36,7 @@
          >div{
             
              grid-area: section-1-content;   
-            
+             display: flex;
              section{
                 
              }
@@ -47,7 +47,7 @@
                
                 
                  div{
-              
+                    
         
         background-position: center;
         border: 4px $white solid;
@@ -56,8 +56,6 @@
         border-radius: 100%;
                  }
     
-                  display: flex;
-                            
         #planning-left{
 
             background: url("../img/veggies/veggiess2.jpg");
