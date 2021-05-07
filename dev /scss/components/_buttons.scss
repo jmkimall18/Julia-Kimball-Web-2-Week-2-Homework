@@ -4,14 +4,8 @@
 button {
     cursor: pointer;
     font-display: $vanilla;
+    &:hover, &:active{
+        color: #C38583;
+    }
 }
 
-.blue-button {
-    background-color: $electricYellow;
-    border: none;
-    font-size: rem-calc(16);
-    font-weight: 600;
-    padding: 10px;
-    transition: 0.25s;
-
-}

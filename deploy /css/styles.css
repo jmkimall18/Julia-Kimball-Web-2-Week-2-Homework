@@ -368,6 +368,7 @@ ul li {
 .content {
   background-color: #fff;
   display: grid;
+  gap: 30px;
   grid-template-areas: "header" "heading-1" "heading-2" "hero-2" "hero" "section-1" "section-2";
   margin-bottom: 24px;
 }
@@ -439,14 +440,8 @@ button {
   cursor: pointer;
   font-display: #F7E8DC;
 }
-
-.blue-button {
-  background-color: #FFD205;
-  border: none;
-  font-size: 1rem;
-  font-weight: 600;
-  padding: 10px;
-  transition: 0.25s;
+button:hover, button:active {
+  color: #C38583;
 }
 
 /* =============
@@ -492,6 +487,7 @@ header > div img {
   height: 77px;
 }
 header section h1 {
+  text-align: left;
   color: #F7E8DC;
   font-weight: 200;
   font-size: 0.875rem;
@@ -537,6 +533,8 @@ header section h2 {
 ============= */
 footer {
   display: grid;
+  padding-top: 44px;
+  padding-bottom: 44px;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
   background-color: #4E7851;
@@ -564,6 +562,8 @@ footer > div {
 }
 footer > div li {
   display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 footer > div div {
   display: flex;
@@ -583,13 +583,21 @@ footer > div #f1 input {
   border: none;
   color: #1D322B;
 }
+footer > div #f2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 @media (min-width: 768px) {
   footer > div #f2 {
     grid-area: f2;
   }
 }
 footer > div #f2 i {
+  margin: 10px;
   color: #F7E8DC;
+}
+footer > div #f2 i:hover, footer > div #f2 i:active {
+  color: #C38583;
 }
 footer h1 {
   color: #C38583;
@@ -615,6 +623,9 @@ footer button {
   border: none;
   color: #F7E8DC;
 }
+footer button:hover, footer button:active {
+  color: #C38583;
+}
 
 /* =============
     heading-1
@@ -634,6 +645,7 @@ footer button {
   grid-area: heading-1;
 }
 #heading-1 > div form {
+  text-align: right;
   border-color: none;
 }
 #heading-1 > div input {
@@ -645,24 +657,34 @@ footer button {
 }
 @media (min-width: 768px) {
   #heading-1 > div input {
-    font-size: 1.875rem;
+    font-size: 1.25rem;
     font-weight: 200;
   }
 }
 @media (min-width: 1024px) {
   #heading-1 > div input {
-    font-size: 2.1875rem;
+    font-size: 1.5625rem;
   }
 }
 @media (min-width: 1200px) {
   #heading-1 > div input {
-    font-size: 2.1875rem;
+    font-size: 1.875rem;
   }
 }
 #heading-1 > div button {
   background-color: #89514E;
   color: #F7E8DC;
   border: none;
+}
+@media (min-width: 768px) {
+  #heading-1 > div button {
+    size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  #heading-1 > div button {
+    font-size: 1.5625rem;
+  }
 }
 
 /* =============

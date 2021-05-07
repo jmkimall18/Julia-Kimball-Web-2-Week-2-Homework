@@ -4,6 +4,8 @@
 footer {
 
     display: grid;
+    padding-top: 44px;
+    padding-bottom: 44px;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". footer .";
     background-color: $forest;
@@ -13,6 +15,7 @@ footer {
     }
 
   >div{
+    
     grid-area: footer;
     @include md{
         display: grid;
@@ -31,14 +34,16 @@ footer {
 
         li{
             display: flex;
+            padding-top: 15px;
+            padding-bottom: 15px;
         }
         div{
             display: flex;
+            
         }
 
         #footera{
 
-            
             @include md{
                 grid-area: footera;
             }
@@ -60,15 +65,19 @@ footer {
         }
 
         #f2{
-       
+            padding-top: 15px;
+            padding-bottom: 15px;
 
             @include md{
                 grid-area: f2;
             }
 
             i{
+               margin: 10px;
                 color: $vanilla;
-               
+                &:hover, &:active{
+                    color: #C38583;
+                }
                 
             }
         }
@@ -93,9 +102,8 @@ footer {
         }
 
         a{
-        
+           
             color: $vanilla;
-
     }
  
 
@@ -104,7 +112,9 @@ footer {
 
     }
     button{
-
+        &:hover, &:active{
+            color: #C38583;
+        }
         background-color: $christmas;
         border: none;
         color: $vanilla;
