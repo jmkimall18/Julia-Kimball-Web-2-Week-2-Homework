@@ -573,6 +573,10 @@ footer > div div {
     grid-area: footera;
   }
 }
+footer > div #f1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 @media (min-width: 768px) {
   footer > div #f1 {
     grid-area: f1;
