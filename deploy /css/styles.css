@@ -416,10 +416,11 @@ ul li {
     Typography
 ============= */
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-family: "Karla", sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
@@ -479,18 +480,25 @@ header {
   grid-template-areas: ". header .";
   background-color: #4E7851;
 }
-header > div {
+header div {
+  display: flex;
   grid-area: header;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
-header > div img {
+header div img {
   width: 130px;
   height: 77px;
+}
+header section {
+  display: grid;
 }
 header section h1 {
   text-align: left;
   color: #F7E8DC;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 0.875rem;
+  font-family: "Work Sans";
 }
 @media (min-width: 768px) {
   header section h1 {
@@ -504,26 +512,6 @@ header section h1 {
 }
 @media (min-width: 1200px) {
   header section h1 {
-    font-size: 2.1875rem;
-  }
-}
-header section h2 {
-  color: #F7E8DC;
-  font-weight: 500;
-  font-size: 0.875rem;
-}
-@media (min-width: 768px) {
-  header section h2 {
-    font-size: 1.875rem;
-  }
-}
-@media (min-width: 1024px) {
-  header section h2 {
-    font-size: 2.1875rem;
-  }
-}
-@media (min-width: 1200px) {
-  header section h2 {
     font-size: 2.1875rem;
   }
 }
@@ -647,9 +635,29 @@ footer button:hover, footer button:active {
 }
 #heading-1 > div {
   grid-area: heading-1;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+@media (min-width: 768px) {
+  #heading-1 > div {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  #heading-1 > div {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  #heading-1 > div {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 #heading-1 > div form {
-  text-align: right;
+  text-align: left;
   border-color: none;
 }
 #heading-1 > div input {
@@ -657,12 +665,12 @@ footer button:hover, footer button:active {
   border: none;
   color: #1D322B;
   font-size: 0.875rem;
-  font-weight: 200;
+  font-family: "Work Sans";
+  font-weight: 300;
 }
 @media (min-width: 768px) {
   #heading-1 > div input {
     font-size: 1.25rem;
-    font-weight: 200;
   }
 }
 @media (min-width: 1024px) {
@@ -679,6 +687,11 @@ footer button:hover, footer button:active {
   background-color: #89514E;
   color: #F7E8DC;
   border: none;
+  border-radius: 5px;
+  padding: 3px 6px;
+}
+#heading-1 > div button:hover, #heading-1 > div button:active {
+  color: #C38583;
 }
 @media (min-width: 768px) {
   #heading-1 > div button {
@@ -704,8 +717,26 @@ footer button:hover, footer button:active {
 }
 #heading-2 h1 {
   color: #375E51;
-  font-size: 1.875rem;
-  font-weight: 200;
+  font-size: 1.25rem;
+  font-family: "Work Sans";
+  font-weight: 300;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+@media (min-width: 768px) {
+  #heading-2 h1 {
+    font-size: 1.5625rem;
+  }
+}
+@media (min-width: 1024px) {
+  #heading-2 h1 {
+    font-size: 1.5625rem;
+  }
+}
+@media (min-width: 1200px) {
+  #heading-2 h1 {
+    font-size: 1.875rem;
+  }
 }
 @media (min-width: 1200px) {
   #heading-2 {

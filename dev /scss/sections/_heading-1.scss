@@ -16,11 +16,25 @@
 
         >div{
             grid-area: heading-1;
-            
+                padding-top: 12px;
+                padding-bottom: 12px;
+            @include md{
+                padding-top: 16px;
+                padding-bottom: 16px;
+            }
+            @include lg{
+
+                padding-top: 16px;
+                padding-bottom: 16px;
+            }
+            @include xl{
+                padding-top: 16px;
+                padding-bottom: 16px;
+            }
 
 
             form{
-                text-align: right;
+                text-align: left;
                 border-color: none;
             }
 
@@ -29,13 +43,14 @@
                 border: none;
                 color: #1D322B;
                 font-size: rem-calc(14);
-                font-weight: 200;
+                font-family: 'Work Sans';
+                font-weight: 300;
                 @include md{
 
                     // 16px + 1m
                     // 1em = 1 rem
                     font-size: rem-calc(20);
-                    font-weight: 200;
+                    
                 }
                 @include lg{
 
@@ -56,11 +71,15 @@
             }
 
             button{
-               
 
+                &:hover, &:active{
+                    color: #C38583;
+                }
                 background-color: $christmas;
                 color: $vanilla;
                 border: none;
+                border-radius: 5px;
+                padding: 3px 6px;
 
                 @include md{
 

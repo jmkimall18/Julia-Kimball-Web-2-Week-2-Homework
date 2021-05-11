@@ -12,11 +12,40 @@
         }
         h1{
             color: #375E51;
-            font-size: rem-calc(30);
-            font-weight: 200;
+            font-size: rem-calc(20);
+            font-family: 'Work Sans';
+            font-weight: 300;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            
+            @include md{
+
+                // 16px + 1m
+                // 1em = 1 rem
+                font-size: rem-calc(25);
+                
+            }
+            @include lg{
+
+                // 16px + 1m
+                // 1em = 1 rem
+                font-size: rem-calc(25);
+            }
+            @include xl{
+
+                // 16px + 1m
+                // 1em = 1 rem
+                font-size: rem-calc(30);
+            }
         }
 
         @include xl {
             grid-template-columns: auto 1200px auto;
         }
 	}
+
+
+
+
+
+    

@@ -6,20 +6,28 @@ header {
         grid-template-columns: 16px auto 16px;
 		grid-template-areas: ". header .";
         background-color: $forest;
-        >div{
+
+        div{ display: flex;
             grid-area: header;
+            padding-top: 16px;
+            padding-bottom: 16px;
             img{
                 width: 130px;
                 height: 77px;
             }
                 }
  section{
+        
+    display: grid;
 
+           
     h1{
+        
         text-align:left;
         color: $vanilla;
-        font-weight: 200;
+        font-weight: 300;
         font-size: rem-calc(14);
+        font-family: 'Work Sans';
         @include md{
 
             // 16px + 1m
@@ -43,30 +51,5 @@ header {
 
     }
 
-    h2{
-        color: $vanilla;
-        font-weight: 500;
-        font-size: rem-calc(14);
-        @include md{
-
-            // 16px + 1m
-            // 1em = 1 rem
-            font-size: rem-calc(30);
-        }
-        @include lg{
-
-            // 16px + 1m
-            // 1em = 1 rem
-            font-size: rem-calc(35);
-        }
-        @include xl{
-
-            // 16px + 1m
-            // 1em = 1 rem
-            font-size: rem-calc(35);
-        }
-        
-        
-    }
-	}
+ }
 }
