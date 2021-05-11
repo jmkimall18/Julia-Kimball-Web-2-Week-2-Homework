@@ -1130,6 +1130,10 @@ footer button:hover, footer button:active {
 #section-1 ul li > div {
   grid-area: section-1-content;
   display: flex;
+  align-items: center;
+}
+#section-1 ul li > div aside {
+  margin-left: auto;
 }
 #section-1 ul li > div aside div {
   background-position: center;
