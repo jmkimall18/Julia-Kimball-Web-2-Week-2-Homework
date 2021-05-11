@@ -61,6 +61,7 @@
                     grid-template-columns: 16px auto 16px;
                     grid-template-areas: ". section-2-2 .";
                     background-color: $vanilla;
+                    margin-bottom: 16px;
 
                     @include xl {
                         // grid-area: section-1;
@@ -68,7 +69,7 @@
 
                     >div {
                         grid-area: section-2-2;
-
+                        margin-bottom: 20px;
                     }
 
                 }

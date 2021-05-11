@@ -1216,9 +1216,11 @@ footer button:hover, footer button:active {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". section-2-2 .";
   background-color: #F7E8DC;
+  margin-bottom: 16px;
 }
 #section-2 > div ul li section > div {
   grid-area: section-2-2;
+  margin-bottom: 20px;
 }
 @media (min-width: 768px) {
   #section-2 > div ul #section-2content {
