@@ -3,6 +3,9 @@
 ============= */
 
 #section-1{
+
+    row-gap: 16px;
+
     @include md{
         display: grid;
         grid-template-columns: 16px auto 16px;
@@ -24,6 +27,43 @@
             gap: 24px;
             grid-area: section-1;
         }
+        h1 {
+            color: $vanilla;
+            font-weight: 300;
+            font-size: 20px;
+            font-family: 'Work Sans';
+            font-weight: 300;
+            padding-top: 12px;
+            padding-bottom: 12px;
+
+            @include md{
+
+                // 16px + 1m
+                // 1em = 1 rem
+                font-size: rem-calc(20);
+                padding-top: 16px;
+                padding-bottom: 6px;
+                
+            }
+            @include lg{
+
+                // 16px + 1m
+                // 1em = 1 rem
+                font-size: rem-calc(25);
+                padding-top: 16px;
+                padding-bottom: 6px;
+                
+            }
+            @include xl{
+
+                // 16px + 1m
+                // 1em = 1 rem
+                font-size: rem-calc(30);
+                padding-top: 16px;
+                padding-bottom: 6px;
+                
+            }
+                    }
 
 
         li{
@@ -31,6 +71,8 @@
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". section-1-content .";
         background-color: $garden;
+        padding-top: 16px;
+        padding-bottom: 16px;
         
 
          >div{
@@ -38,6 +80,7 @@
              grid-area: section-1-content;   
              display: flex;
              section{
+                 
                 
              }
 
@@ -50,7 +93,7 @@
                     
         
         background-position: center;
-        border: 4px $white solid;
+        border: 4px $vanilla solid;
         height: 85px;
         width: 85px;
         border-radius: 100%;
@@ -80,17 +123,21 @@
 
         button{
 
+            font-size: 14px;
+            font-family: 'Work Sans';
+            font-weight: 400;
+        
+            border-radius: 5px;
+            padding: 3px 6px;
             background-color: $christmas;
             border: none;
             color: $vanilla;
+            &:hover, &:active{
+                color: #C38583;
+            }
         
                 }
         
-                h1{
-                    color: $vanilla;
-                    font-weight: 400;
-                    font-size: 30px;
-                }
 }
 
 

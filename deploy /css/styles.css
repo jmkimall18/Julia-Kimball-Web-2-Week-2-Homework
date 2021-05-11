@@ -497,7 +497,7 @@ header section h1 {
   text-align: left;
   color: #F7E8DC;
   font-weight: 300;
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   font-family: "Work Sans";
 }
 @media (min-width: 768px) {
@@ -664,7 +664,7 @@ footer button:hover, footer button:active {
   background-color: #fff;
   border: none;
   color: #1D322B;
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   font-family: "Work Sans";
   font-weight: 300;
 }
@@ -869,15 +869,63 @@ footer button:hover, footer button:active {
 #hero ul #hero1 h1 {
   color: #F7E8DC;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 20px;
+  font-family: "Work Sans";
+  font-weight: 300;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+@media (min-width: 768px) {
+  #hero ul #hero1 h1 {
+    font-size: 1.25rem;
+    padding-top: 16px;
+    padding-bottom: 6px;
+  }
+}
+@media (min-width: 1024px) {
+  #hero ul #hero1 h1 {
+    font-size: 1.5625rem;
+    padding-top: 16px;
+    padding-bottom: 6px;
+  }
+}
+@media (min-width: 1200px) {
+  #hero ul #hero1 h1 {
+    font-size: 1.875rem;
+    padding-top: 16px;
+    padding-bottom: 6px;
+  }
 }
 #hero ul #hero1 h2 {
   color: #F7E8DC;
+  font-size: 14px;
+  font-family: "Work Sans";
   font-weight: 400;
-  font-size: 20px;
+  padding-bottom: 6px;
+}
+@media (min-width: 768px) {
+  #hero ul #hero1 h2 {
+    font-size: 1rem;
+    padding-bottom: 6px;
+  }
+}
+@media (min-width: 1024px) {
+  #hero ul #hero1 h2 {
+    font-size: 1.25rem;
+    padding-bottom: 6px;
+  }
+}
+@media (min-width: 1200px) {
+  #hero ul #hero1 h2 {
+    font-size: 1.25rem;
+    padding-bottom: 6px;
+  }
 }
 #hero ul #hero1 i {
   color: #F7E8DC;
+}
+#hero ul #hero1 i:hover, #hero ul #hero1 i:active {
+  color: #C38583;
 }
 #hero ul #hero2 {
   background-color: #C38583;
@@ -891,30 +939,84 @@ footer button:hover, footer button:active {
 #hero ul #hero2 h1 {
   color: #F7E8DC;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 20px;
+  font-family: "Work Sans";
+  font-weight: 300;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+@media (min-width: 768px) {
+  #hero ul #hero2 h1 {
+    font-size: 1.25rem;
+    padding-top: 16px;
+    padding-bottom: 6px;
+  }
+}
+@media (min-width: 1024px) {
+  #hero ul #hero2 h1 {
+    font-size: 1.5625rem;
+    padding-top: 16px;
+    padding-bottom: 6px;
+  }
+}
+@media (min-width: 1200px) {
+  #hero ul #hero2 h1 {
+    font-size: 1.875rem;
+    padding-top: 16px;
+    padding-bottom: 6px;
+  }
 }
 #hero ul #hero2 h2 {
   color: #F7E8DC;
+  font-size: 14px;
+  font-family: "Work Sans";
   font-weight: 400;
-  font-size: 20px;
+  padding-bottom: 6px;
 }
-#hero ul #hero2 h3 {
-  color: #F7E8DC;
-  font-weight: 400;
-  font-size: 15px;
+@media (min-width: 768px) {
+  #hero ul #hero2 h2 {
+    font-size: 1rem;
+    padding-bottom: 6px;
+  }
+}
+@media (min-width: 1024px) {
+  #hero ul #hero2 h2 {
+    font-size: 1.25rem;
+    padding-bottom: 6px;
+  }
+}
+@media (min-width: 1200px) {
+  #hero ul #hero2 h2 {
+    font-size: 1.25rem;
+    padding-bottom: 6px;
+  }
 }
 #hero ul #hero2 i {
   color: #F7E8DC;
 }
+#hero ul #hero2 i:hover, #hero ul #hero2 i:active {
+  color: #C38583;
+}
 #hero ul button {
+  font-size: 14px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 3px 6px;
   background-color: #89514E;
   border: none;
   color: #F7E8DC;
+}
+#hero ul button:hover, #hero ul button:active {
+  color: #C38583;
 }
 
 /* =============
     section-1
 ============= */
+#section-1 {
+  row-gap: 16px;
+}
 @media (min-width: 768px) {
   #section-1 {
     display: grid;
@@ -938,11 +1040,43 @@ footer button:hover, footer button:active {
     grid-area: section-1;
   }
 }
+#section-1 ul h1 {
+  color: #F7E8DC;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Work Sans";
+  font-weight: 300;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+@media (min-width: 768px) {
+  #section-1 ul h1 {
+    font-size: 1.25rem;
+    padding-top: 16px;
+    padding-bottom: 6px;
+  }
+}
+@media (min-width: 1024px) {
+  #section-1 ul h1 {
+    font-size: 1.5625rem;
+    padding-top: 16px;
+    padding-bottom: 6px;
+  }
+}
+@media (min-width: 1200px) {
+  #section-1 ul h1 {
+    font-size: 1.875rem;
+    padding-top: 16px;
+    padding-bottom: 6px;
+  }
+}
 #section-1 ul li {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". section-1-content .";
   background-color: #9EBC99;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 #section-1 ul li > div {
   grid-area: section-1-content;
@@ -950,7 +1084,7 @@ footer button:hover, footer button:active {
 }
 #section-1 ul li > div aside div {
   background-position: center;
-  border: 4px #fff solid;
+  border: 4px #F7E8DC solid;
   height: 85px;
   width: 85px;
   border-radius: 100%;
@@ -964,14 +1098,17 @@ footer button:hover, footer button:active {
   background-size: cover;
 }
 #section-1 button {
+  font-size: 14px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 3px 6px;
   background-color: #89514E;
   border: none;
   color: #F7E8DC;
 }
-#section-1 h1 {
-  color: #F7E8DC;
-  font-weight: 400;
-  font-size: 30px;
+#section-1 button:hover, #section-1 button:active {
+  color: #C38583;
 }
 
 /* =============
@@ -1064,18 +1201,94 @@ footer button:hover, footer button:active {
   background-image: url("../img/field2/farmfield.jpg");
 }
 #section-2 > div ul button {
+  font-size: 14px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 3px 6px;
   background-color: #89514E;
   border: none;
   color: #F7E8DC;
 }
+#section-2 > div ul button:hover, #section-2 > div ul button:active {
+  color: #C38583;
+}
 #section-2 > div ul h1 {
   color: #1D322B;
-  font-weight: 400;
-  font-size: 30px;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Work Sans";
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+@media (min-width: 768px) {
+  #section-2 > div ul h1 {
+    font-size: 1.25rem;
+    padding-top: 16px;
+    padding-bottom: 6px;
+  }
+}
+@media (min-width: 1024px) {
+  #section-2 > div ul h1 {
+    font-size: 1.5625rem;
+    padding-top: 16px;
+    padding-bottom: 6px;
+  }
+}
+@media (min-width: 1200px) {
+  #section-2 > div ul h1 {
+    font-size: 1.875rem;
+    padding-top: 16px;
+    padding-bottom: 6px;
+  }
 }
 #section-2 > div ul h4 {
   color: #1D322B;
+  font-size: 14px;
+  font-family: "Work Sans";
+  font-weight: 600;
+  padding-bottom: 6px;
+}
+@media (min-width: 768px) {
+  #section-2 > div ul h4 {
+    font-size: 0.875rem;
+    padding-bottom: 6px;
+  }
+}
+@media (min-width: 1024px) {
+  #section-2 > div ul h4 {
+    font-size: 1rem;
+    padding-bottom: 6px;
+  }
+}
+@media (min-width: 1200px) {
+  #section-2 > div ul h4 {
+    font-size: 1.125rem;
+    padding-bottom: 6px;
+  }
 }
 #section-2 > div ul p {
   color: #1D322B;
+  font-size: 12 px;
+  font-family: "Karla";
+  font-weight: 400;
+  padding-bottom: 6px;
+}
+@media (min-width: 768px) {
+  #section-2 > div ul p {
+    font-size: 0.75rem;
+    padding-bottom: 6px;
+  }
+}
+@media (min-width: 1024px) {
+  #section-2 > div ul p {
+    font-size: 0.875rem;
+    padding-bottom: 6px;
+  }
+}
+@media (min-width: 1200px) {
+  #section-2 > div ul p {
+    font-size: 1rem;
+    padding-bottom: 6px;
+  }
 }

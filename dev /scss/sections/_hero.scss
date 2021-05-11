@@ -71,22 +71,82 @@
             h1 {
                 color: $vanilla;
                 font-weight: 300;
-                font-size: 30px;
+                font-size: 20px;
+                font-family: 'Work Sans';
+                font-weight: 300;
+                padding-top: 12px;
+                padding-bottom: 12px;
+
+                @include md{
+
+                    // 16px + 1m
+                    // 1em = 1 rem
+                    font-size: rem-calc(20);
+                    padding-top: 16px;
+                    padding-bottom: 6px;
+                    
+                }
+                @include lg{
+
+                    // 16px + 1m
+                    // 1em = 1 rem
+                    font-size: rem-calc(25);
+                    padding-top: 16px;
+                    padding-bottom: 6px;
+                    
+                }
+                @include xl{
+
+                    // 16px + 1m
+                    // 1em = 1 rem
+                    font-size: rem-calc(30);
+                    padding-top: 16px;
+                    padding-bottom: 6px;
+                    
+                }
             }
 
             h2 {
                 color: $vanilla;
+                font-size: 14px;
+                font-family: 'Work Sans';
                 font-weight: 400;
-                font-size: 20px;
+                padding-bottom: 6px;
+
+                @include md{
+
+                    // 16px + 1m
+                    // 1em = 1 rem
+                    font-size: rem-calc(16);
+                    padding-bottom: 6px;
+                    
+                }
+                @include lg{
+
+                    // 16px + 1m
+                    // 1em = 1 rem
+                    font-size: rem-calc(20);
+                    padding-bottom: 6px;
+                }
+                @include xl{
+
+                    // 16px + 1m
+                    // 1em = 1 rem
+                    font-size: rem-calc(20);
+                    padding-bottom: 6px;
+                }
             }
 
             i {
                 color: $vanilla;
+                &:hover, &:active{
+                    color: #C38583;
+                }
             }
         }
 
         #hero2 {
-
+           
             background-color: $lightpink;
 
             @include xl {
@@ -97,32 +157,101 @@
             h1 {
                 color: $vanilla;
                 font-weight: 300;
-                font-size: 30px;
-            }
+                font-size: 20px;
+                font-family: 'Work Sans';
+                font-weight: 300;
+                padding-top: 12px;
+                padding-bottom: 12px;
+
+                @include md{
+
+                    // 16px + 1m
+                    // 1em = 1 rem
+                    font-size: rem-calc(20);
+                    padding-top: 16px;
+                    padding-bottom: 6px;
+                    
+                }
+                @include lg{
+
+                    // 16px + 1m
+                    // 1em = 1 rem
+                    font-size: rem-calc(25);
+                    padding-top: 16px;
+                    padding-bottom: 6px;
+                    
+                }
+                @include xl{
+
+                    // 16px + 1m
+                    // 1em = 1 rem
+                    font-size: rem-calc(30);
+                    padding-top: 16px;
+                    padding-bottom: 6px;
+                    
+                }
+                        }
 
             h2 {
                 color: $vanilla;
+                font-size: 14px;
+                font-family: 'Work Sans';
                 font-weight: 400;
-                font-size: 20px;
+                padding-bottom: 6px;
+
+                @include md{
+
+                    // 16px + 1m
+                    // 1em = 1 rem
+                    font-size: rem-calc(16);
+                    padding-bottom: 6px;
+                    
+                }
+                @include lg{
+
+                    // 16px + 1m
+                    // 1em = 1 rem
+                    font-size: rem-calc(20);
+                    padding-bottom: 6px;
+                }
+                @include xl{
+
+                    // 16px + 1m
+                    // 1em = 1 rem
+                    font-size: rem-calc(20);
+                    padding-bottom: 6px;
+                }
             }
 
-            h3 {
-                color: $vanilla;
-                font-weight: 400;
-                font-size: 15px;
-            }
+           
 
             i {
                 color: $vanilla;
-            }
-        }
 
+                &:hover, &:active{
+                    color: #C38583;
+                }
+            }
+                
+            }
+        
+         
         button {
 
+            font-size: 14px;
+            font-family: 'Work Sans';
+            font-weight: 400;
+        
+            border-radius: 5px;
+            padding: 3px 6px;
             background-color: $christmas;
             border: none;
             color: $vanilla;
-
+            &:hover, &:active{
+                color: #C38583;
+            }
+            
+            
         }
 
 
@@ -131,6 +260,5 @@
     }
 
 
-
-
 }
+
