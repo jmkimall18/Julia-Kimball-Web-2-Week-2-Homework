@@ -698,6 +698,8 @@ footer button:hover, footer button:active {
 #heading-1 > div input {
   background-color: #fff;
   border: none;
+  border-bottom: 1px solid silver;
+  width: 80%;
   color: #1D322B;
   font-size: 1.25rem;
   font-family: "Work Sans";
