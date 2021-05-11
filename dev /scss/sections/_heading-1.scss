@@ -81,11 +81,10 @@
                 color: $vanilla;
                 border: none;
                 border-radius: 5px;
-                padding: 6px 8px;
+                padding: 6px 14px;
 
                 @include md{
-
-                   size: 14px;
+                    font-size: rem-calc(25);  
                 }
                 @include lg{
                  font-size: rem-calc(25);

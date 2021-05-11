@@ -725,14 +725,14 @@ footer button:hover, footer button:active {
   color: #F7E8DC;
   border: none;
   border-radius: 5px;
-  padding: 6px 8px;
+  padding: 6px 14px;
 }
 #heading-1 > div button:hover, #heading-1 > div button:active {
   color: #C38583;
 }
 @media (min-width: 768px) {
   #heading-1 > div button {
-    size: 14px;
+    font-size: 1.5625rem;
   }
 }
 @media (min-width: 1024px) {
@@ -903,6 +903,11 @@ footer button:hover, footer button:active {
 #hero ul #hero1 {
   background-color: #A96562;
 }
+#hero ul #hero1:hover, #hero ul #hero1:active {
+  background-color: #C38583;
+  color: #A96562;
+  transition: 0.25s;
+}
 #hero ul #hero1 h1 {
   color: #F7E8DC;
   font-weight: 300;
@@ -966,6 +971,11 @@ footer button:hover, footer button:active {
 }
 #hero ul #hero2 {
   background-color: #C38583;
+}
+#hero ul #hero2:hover, #hero ul #hero2:active {
+  background-color: #A96562;
+  color: #C38583;
+  transition: 0.25s;
 }
 @media (min-width: 1200px) {
   #hero ul #hero2 {
