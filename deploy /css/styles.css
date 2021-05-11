@@ -631,18 +631,11 @@ footer h2 {
   font-size: 20px;
 }
 footer address {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 12px;
   font-family: "Karla";
   color: #F7E8DC;
   padding-left: 6px;
-}
-footer a {
-  font-weight: 400;
-  font-family: "Karla";
-  color: #F7E8DC;
-  padding-left: 6px;
-  color: #F7E8DC;
 }
 footer i {
   color: #C38583;
@@ -762,7 +755,7 @@ footer button:hover, footer button:active {
   font-size: 1.25rem;
   font-family: "Work Sans";
   font-weight: 300;
-  padding-top: 14px;
+  padding-top: 16px;
   padding-bottom: 14px;
 }
 @media (min-width: 768px) {

@@ -113,6 +113,7 @@ footer {
             }
 
             i{
+
                margin: 10px;
                 color: $vanilla;
                 &:hover, &:active{
@@ -137,7 +138,7 @@ footer {
         }
 
         address{
-            font-weight: 400;
+            font-weight: 300;
             font-size: 12px;
             font-family: 'Karla';
             color: $vanilla;
@@ -146,12 +147,7 @@ footer {
         }
 
         a{
-            font-weight: 400;
             
-            font-family: 'Karla';
-            color: $vanilla;
-            padding-left: 6px;
-            color: $vanilla;
     }
  
 
