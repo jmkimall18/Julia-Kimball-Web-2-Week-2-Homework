@@ -3,10 +3,12 @@
 ============= */
 
 #section-2 {
+    padding-bottom: 16px;
     @include md {
         display: grid;
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". section-2 .";
+        
     }
 
 
@@ -23,7 +25,8 @@
 
         ul {
 
-
+            padding-top: 16px;
+            padding-bottom: 16px;
             @include md {
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
@@ -133,6 +136,8 @@
 
 
             button {
+                padding-top: 16px;
+                padding-bottom: 16px;
             font-size: 14px;
             font-family: 'Work Sans';
             font-weight: 400;
@@ -196,7 +201,7 @@
 
                     // 16px + 1m
                     // 1em = 1 rem
-                    font-size: rem-calc(14);
+                    font-size: rem-calc(16);
                     padding-bottom: 6px;
                     
                 }
@@ -219,32 +224,32 @@
 
             p {
                 color: #1D322B;
-                font-size: 12 px;
+                font-size: 10 px;
                 font-family: 'Karla';
                 font-weight: 400;
-                padding-bottom: 6px;
+                padding-bottom: 16px;
 
                 @include md{
 
                     // 16px + 1m
                     // 1em = 1 rem
                     font-size: rem-calc(12);
-                    padding-bottom: 6px;
+                    padding-bottom: 16px;
                     
                 }
                 @include lg{
 
                     // 16px + 1m
                     // 1em = 1 rem
-                    font-size: rem-calc(14);
-                    padding-bottom: 6px;
+                    font-size: rem-calc(12);
+                    padding-bottom: 16px;
                 }
                 @include xl{
 
                     // 16px + 1m
                     // 1em = 1 rem
                     font-size: rem-calc(16);
-                    padding-bottom: 6px;
+                    padding-bottom: 16px;
 
             }
                                 }

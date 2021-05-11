@@ -34,8 +34,9 @@ footer {
 
         li{
             display: flex;
-            padding-top: 15px;
-            padding-bottom: 15px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            
         }
         div{
             display: flex;
@@ -44,14 +45,44 @@ footer {
 
         #footera{
 
+            a{
+                font-weight: 400;
+                font-size: 12px;
+                font-family: 'Karla';
+                color: $vanilla;
+                padding-left: 6px;
+                color: $vanilla;
+        }
+            h1 {
+
+                font-weight: 400;
+                font-size: 20px;
+                font-family: 'Work Sans';
+            }
+
+            h2 {
+
+                font-weight: 300;
+                font-size: 18px;
+                font-family: 'Work Sans';
+            }
+
             @include md{
                 grid-area: footera;
             }
         }
 
         #f1{
-            padding-top: 15px;
-            padding-bottom: 15px;
+            h1 {
+
+                font-weight: 400;
+                font-size: 20px;
+                font-family: 'Work Sans';
+            }
+            
+
+            padding-top: 16px;
+            padding-bottom: 16px;
             @include md{
                 grid-area: f1;
             }
@@ -66,8 +97,16 @@ footer {
         }
 
         #f2{
-            padding-top: 15px;
-            padding-bottom: 15px;
+
+            h1 {
+
+                font-weight: 400;
+                font-size: 20px;
+                font-family: 'Work Sans';
+            }
+
+            padding-top: 16px;
+            padding-bottom: 16px;
 
             @include md{
                 grid-area: f2;
@@ -89,6 +128,7 @@ footer {
             color: #C38583;
             font-weight: 400;
             font-size: 30px;
+            padding-bottom: 6px;
         }
         h2{
             color: #C1E4BB;
@@ -97,13 +137,20 @@ footer {
         }
 
         address{
-        
-                color: $vanilla;
+            font-weight: 400;
+            font-size: 12px;
+            font-family: 'Karla';
+            color: $vanilla;
+            padding-left: 6px;
 
         }
 
         a{
-           
+            font-weight: 400;
+            
+            font-family: 'Karla';
+            color: $vanilla;
+            padding-left: 6px;
             color: $vanilla;
     }
  
@@ -113,12 +160,18 @@ footer {
 
     }
     button{
-        &:hover, &:active{
-            color: #C38583;
-        }
-        background-color: $christmas;
-        border: none;
-        color: $vanilla;
+        font-size: 14px;
+            font-family: 'Work Sans';
+            font-weight: 400;
+        
+            border-radius: 5px;
+            padding: 3px 6px;
+            background-color: $christmas;
+            border: none;
+            color: $vanilla;
+            &:hover, &:active{
+                color: #C38583;
+            }
 
             }
 }

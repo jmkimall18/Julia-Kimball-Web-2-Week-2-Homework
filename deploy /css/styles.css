@@ -550,11 +550,29 @@ footer > div {
 }
 footer > div li {
   display: flex;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 footer > div div {
   display: flex;
+}
+footer > div #footera a {
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "Karla";
+  color: #F7E8DC;
+  padding-left: 6px;
+  color: #F7E8DC;
+}
+footer > div #footera h1 {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Work Sans";
+}
+footer > div #footera h2 {
+  font-weight: 300;
+  font-size: 18px;
+  font-family: "Work Sans";
 }
 @media (min-width: 768px) {
   footer > div #footera {
@@ -562,8 +580,13 @@ footer > div div {
   }
 }
 footer > div #f1 {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+footer > div #f1 h1 {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Work Sans";
 }
 @media (min-width: 768px) {
   footer > div #f1 {
@@ -576,8 +599,13 @@ footer > div #f1 input {
   color: #1D322B;
 }
 footer > div #f2 {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+footer > div #f2 h1 {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Work Sans";
 }
 @media (min-width: 768px) {
   footer > div #f2 {
@@ -595,6 +623,7 @@ footer h1 {
   color: #C38583;
   font-weight: 400;
   font-size: 30px;
+  padding-bottom: 6px;
 }
 footer h2 {
   color: #C1E4BB;
@@ -602,15 +631,28 @@ footer h2 {
   font-size: 20px;
 }
 footer address {
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "Karla";
   color: #F7E8DC;
+  padding-left: 6px;
 }
 footer a {
+  font-weight: 400;
+  font-family: "Karla";
+  color: #F7E8DC;
+  padding-left: 6px;
   color: #F7E8DC;
 }
 footer i {
   color: #C38583;
 }
 footer button {
+  font-size: 14px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 3px 6px;
   background-color: #89514E;
   border: none;
   color: #F7E8DC;
@@ -1030,6 +1072,8 @@ footer button:hover, footer button:active {
   }
 }
 #section-1 ul {
+  padding-bottom: 16px;
+  padding-top: 16px;
   display: grid;
   gap: 16px;
 }
@@ -1114,6 +1158,9 @@ footer button:hover, footer button:active {
 /* =============
     section-2
 ============= */
+#section-2 {
+  padding-bottom: 16px;
+}
 @media (min-width: 768px) {
   #section-2 {
     display: grid;
@@ -1130,6 +1177,10 @@ footer button:hover, footer button:active {
   #section-2 > div {
     grid-area: section-2;
   }
+}
+#section-2 > div ul {
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 @media (min-width: 768px) {
   #section-2 > div ul {
@@ -1201,6 +1252,8 @@ footer button:hover, footer button:active {
   background-image: url("../img/field2/farmfield.jpg");
 }
 #section-2 > div ul button {
+  padding-top: 16px;
+  padding-bottom: 16px;
   font-size: 14px;
   font-family: "Work Sans";
   font-weight: 400;
@@ -1251,7 +1304,7 @@ footer button:hover, footer button:active {
 }
 @media (min-width: 768px) {
   #section-2 > div ul h4 {
-    font-size: 0.875rem;
+    font-size: 1rem;
     padding-bottom: 6px;
   }
 }
@@ -1269,26 +1322,26 @@ footer button:hover, footer button:active {
 }
 #section-2 > div ul p {
   color: #1D322B;
-  font-size: 12 px;
+  font-size: 10 px;
   font-family: "Karla";
   font-weight: 400;
-  padding-bottom: 6px;
+  padding-bottom: 16px;
 }
 @media (min-width: 768px) {
   #section-2 > div ul p {
     font-size: 0.75rem;
-    padding-bottom: 6px;
+    padding-bottom: 16px;
   }
 }
 @media (min-width: 1024px) {
   #section-2 > div ul p {
-    font-size: 0.875rem;
-    padding-bottom: 6px;
+    font-size: 0.75rem;
+    padding-bottom: 16px;
   }
 }
 @media (min-width: 1200px) {
   #section-2 > div ul p {
     font-size: 1rem;
-    padding-bottom: 6px;
+    padding-bottom: 16px;
   }
 }
