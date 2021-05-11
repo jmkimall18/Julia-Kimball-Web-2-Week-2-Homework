@@ -3,7 +3,7 @@
 ============= */
 
 #section-2 {
-    padding-bottom: 16px;
+    padding: 0px 16px;
     @include md {
         display: grid;
         grid-template-columns: 16px auto 16px;
@@ -136,8 +136,8 @@
 
 
             button {
-                padding-top: 16px;
-                padding-bottom: 16px;
+                
+            padding-bottom: 16px;
             font-size: 14px;
             font-family: 'Work Sans';
             font-weight: 400;

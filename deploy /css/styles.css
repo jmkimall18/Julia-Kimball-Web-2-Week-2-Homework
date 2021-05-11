@@ -723,7 +723,7 @@ footer button:hover, footer button:active {
   color: #F7E8DC;
   border: none;
   border-radius: 5px;
-  padding: 3px 6px;
+  padding: 6px 8px;
 }
 #heading-1 > div button:hover, #heading-1 > div button:active {
   color: #C38583;
@@ -1152,7 +1152,7 @@ footer button:hover, footer button:active {
     section-2
 ============= */
 #section-2 {
-  padding-bottom: 16px;
+  padding: 0px 16px;
 }
 @media (min-width: 768px) {
   #section-2 {
@@ -1245,7 +1245,6 @@ footer button:hover, footer button:active {
   background-image: url("../img/field2/farmfield.jpg");
 }
 #section-2 > div ul button {
-  padding-top: 16px;
   padding-bottom: 16px;
   font-size: 14px;
   font-family: "Work Sans";
