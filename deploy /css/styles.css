@@ -661,16 +661,6 @@ footer button {
 footer button:hover, footer button:active {
   color: #C38583;
 }
-@media (min-width: 1024px) {
-  footer button {
-    display: list-item;
-  }
-}
-@media (min-width: 1200px) {
-  footer button {
-    display: list-item;
-  }
-}
 
 /* =============
     heading-1
@@ -984,6 +974,26 @@ footer button:hover, footer button:active {
 #hero ul #hero1 i {
   color: #F7E8DC;
 }
+@media (min-width: 576px) {
+  #hero ul #hero1 i {
+    display: list-item;
+  }
+}
+@media (min-width: 768px) {
+  #hero ul #hero1 i {
+    display: list-item;
+  }
+}
+@media (min-width: 1024px) {
+  #hero ul #hero1 i {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  #hero ul #hero1 i {
+    display: none;
+  }
+}
 #hero ul #hero1 i:hover, #hero ul #hero1 i:active {
   color: #C38583;
 }
@@ -1002,6 +1012,7 @@ footer button:hover, footer button:active {
   }
 }
 #hero ul #hero2 h1 {
+  display: flex;
   color: #F7E8DC;
   font-weight: 300;
   font-size: 20px;
@@ -1032,6 +1043,7 @@ footer button:hover, footer button:active {
   }
 }
 #hero ul #hero2 h2 {
+  display: flex;
   color: #F7E8DC;
   font-size: 14px;
   font-family: "Work Sans";
@@ -1057,12 +1069,36 @@ footer button:hover, footer button:active {
   }
 }
 #hero ul #hero2 i {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
   color: #F7E8DC;
+}
+@media (min-width: 576px) {
+  #hero ul #hero2 i {
+    display: list-item;
+  }
+}
+@media (min-width: 768px) {
+  #hero ul #hero2 i {
+    display: list-item;
+  }
+}
+@media (min-width: 1024px) {
+  #hero ul #hero2 i {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  #hero ul #hero2 i {
+    display: none;
+  }
 }
 #hero ul #hero2 i:hover, #hero ul #hero2 i:active {
   color: #C38583;
 }
 #hero ul button {
+  display: none;
   font-size: 14px;
   font-family: "Work Sans";
   font-weight: 400;
@@ -1079,6 +1115,16 @@ footer button:hover, footer button:active {
 }
 #hero ul button:hover, #hero ul button:active {
   color: #C38583;
+}
+@media (min-width: 1024px) {
+  #hero ul button {
+    display: list-item;
+  }
+}
+@media (min-width: 1200px) {
+  #hero ul button {
+    display: list-item;
+  }
 }
 
 /* =============

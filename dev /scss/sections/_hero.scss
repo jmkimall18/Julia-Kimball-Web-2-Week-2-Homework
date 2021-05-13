@@ -144,7 +144,35 @@
                 }
             }
 
-            i {
+            i { 
+
+                @include sm{
+   
+                    display: list-item;
+                   
+                    
+                 
+                 }
+                @include md{
+       
+                    display: list-item;
+                
+                 }
+
+                 @include lg{
+   
+                    display: none;
+                   
+                    
+                 
+                 }
+                @include xl{
+       
+                    display: none;
+                    
+                    
+                 
+                 }
                 color: $vanilla;
                 &:hover, &:active{
                     color: #C38583;
@@ -153,6 +181,7 @@
         }
 
         #hero2 {
+           
             &:hover, &:active{
                 background-color: $darkpink;
                 color: $spring;
@@ -166,7 +195,7 @@
                 grid-template-columns: 16px 480px auto;
             }
 
-            h1 {
+            h1 { display: flex;
                 color: $vanilla;
                 font-weight: 300;
                 font-size: 20px;
@@ -205,6 +234,7 @@
                         }
 
             h2 {
+                display: flex;
                 color: $vanilla;
                 font-size: 14px;
                 font-family: 'Work Sans';
@@ -237,7 +267,36 @@
 
            
 
-            i {
+            i { display: flex;
+                @include sm{
+
+            display: list-item;
+               
+                
+             
+             }
+            @include md{
+   
+                display: list-item;
+            
+             }
+
+             @include lg{
+
+                display: none;
+               
+                
+             
+             }
+            @include xl{
+   
+                display: none;
+                
+                
+             
+             }
+                align-items: center;
+                margin-right: auto;
                 color: $vanilla;
                 &:hover, &:active{
                     color: #C38583;
@@ -248,6 +307,7 @@
         
          
         button {
+            display: none;
             font-size: 14px;
             font-family: 'Work Sans';
             font-weight: 400;
@@ -264,7 +324,21 @@
             &:hover, &:active{
                 color: #C38583;
             }
-            
+
+            @include lg{
+   
+                display: list-item;
+               
+                
+             
+             }
+            @include xl{
+   
+                display: list-item;
+                
+                
+             
+             }
             
         }
 

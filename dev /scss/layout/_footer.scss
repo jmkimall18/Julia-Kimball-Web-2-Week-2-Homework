@@ -179,17 +179,8 @@ footer {
             &:hover, &:active{
                 color: #C38583;
             }
+
             
-            @include lg{
-   
-                display: list-item;
-             
-             }
-            @include xl{
-   
-                display: list-item;
-             
-             }
 
             }
 }
