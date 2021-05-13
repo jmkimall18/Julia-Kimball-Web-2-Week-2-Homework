@@ -441,9 +441,6 @@ button {
   cursor: pointer;
   font-display: #F7E8DC;
 }
-button:hover, button:active {
-  color: #C38583;
-}
 
 /* =============
     Forms
@@ -581,7 +578,7 @@ footer > div #footera h2 {
 }
 footer > div #f1 {
   padding-top: 16px;
-  padding-bottom: 16px;
+  padding-bottom: 4px;
 }
 footer > div #f1 h1 {
   font-weight: 400;
@@ -594,14 +591,16 @@ footer > div #f1 h1 {
   }
 }
 footer > div #f1 input {
+  width: 70%;
   background-color: #F7E8DC;
   border: none;
   color: #1D322B;
   padding: 16px;
 }
 footer > div #f2 {
-  padding-top: 16px;
+  padding-top: 6px;
   padding-bottom: 16px;
+  width: 95%;
 }
 footer > div #f2 h1 {
   font-weight: 400;
@@ -638,13 +637,21 @@ footer address {
   color: #F7E8DC;
   padding-left: 6px;
 }
+footer a {
+  width: 90%;
+}
 footer i {
   color: #C38583;
 }
 footer button {
+  display: flex;
   font-size: 14px;
   font-family: "Work Sans";
   font-weight: 400;
+  transition: 0.25s;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  margin-left: 63%;
   border-radius: 5px;
   padding: 3px 6px;
   background-color: #89514E;

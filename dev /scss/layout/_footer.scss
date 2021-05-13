@@ -82,12 +82,13 @@ footer {
             
 
             padding-top: 16px;
-            padding-bottom: 16px;
+            padding-bottom: 4px;
             @include md{
                 grid-area: f1;
             }
 
             input{ 
+                width: 70%;
                 background-color: $vanilla;
                 border: none;
                 color: #1D322B;
@@ -105,17 +106,18 @@ footer {
                 font-weight: 400;
                 font-size: 20px;
                 font-family: 'Work Sans';
+               
             }
 
-            padding-top: 16px;
+            padding-top: 6px;
             padding-bottom: 16px;
-
+            width: 95%;
             @include md{
                 grid-area: f2;
             }
 
             i{
-
+                
                margin: 10px;
                 color: $vanilla;
                 &:hover, &:active{
@@ -137,6 +139,7 @@ footer {
             color: #C1E4BB;
             font-weight: 400;
             font-size: 20px;
+            
         }
 
         address{
@@ -145,10 +148,11 @@ footer {
             font-family: 'Karla';
             color: $vanilla;
             padding-left: 6px;
+           
 
         }
 
-        a{
+        a{ width: 90%;
             
     }
  
@@ -158,10 +162,15 @@ footer {
 
     }
     button{
-        font-size: 14px;
+        display: flex;
+       
+            font-size: 14px;
             font-family: 'Work Sans';
             font-weight: 400;
-        
+            transition: 0.25s;
+            margin-top: 16px;
+            margin-bottom: 32px;
+            margin-left: 63%;
             border-radius: 5px;
             padding: 3px 6px;
             background-color: $christmas;

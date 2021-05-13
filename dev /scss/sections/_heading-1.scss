@@ -3,7 +3,7 @@
 ============= */
 
 #heading-1 {
-	display: grid;
+	    display: grid;
         grid-template-columns: 16px auto 16px;
 		grid-template-areas: ". heading-1 .";
         background-color: $white;
