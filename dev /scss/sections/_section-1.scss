@@ -24,6 +24,20 @@
         gap: 16px;
 
         @include md{
+            padding-top: 22px;
+            padding-bottom: 26px;
+        }
+        @include lg{
+
+            padding-top: 24px;
+            padding-bottom: 55px;
+        }
+        @include xl{
+            padding-top: 42px;
+            padding-bottom: 42px;
+        }
+
+        @include md{
             grid-template-columns: 50% auto;
             gap: 24px;
             grid-area: section-1;
