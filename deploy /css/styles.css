@@ -661,6 +661,16 @@ footer button {
 footer button:hover, footer button:active {
   color: #C38583;
 }
+@media (min-width: 1024px) {
+  footer button {
+    display: list-item;
+  }
+}
+@media (min-width: 1200px) {
+  footer button {
+    display: list-item;
+  }
+}
 
 /* =============
     heading-1
@@ -1056,6 +1066,11 @@ footer button:hover, footer button:active {
   font-size: 14px;
   font-family: "Work Sans";
   font-weight: 400;
+  margin-left: 63%;
+  transition: 0.25s;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  margin-left: 63%;
   border-radius: 5px;
   padding: 3px 6px;
   background-color: #89514E;
