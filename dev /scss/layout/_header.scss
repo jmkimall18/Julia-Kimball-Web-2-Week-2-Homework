@@ -2,54 +2,108 @@
     Header
 ============= */
 header {
-	display: grid;
         grid-template-columns: 16px auto 16px;
 		grid-template-areas: ". header .";
         background-color: $forest;
+        img{
+    display: flex;
+    height: 77px;
+       width: 100%;
+      
+        }
+        width: 100%;
+        position: fixed;
 
-        div{ display: flex;
-            grid-area: header;
-            padding-top: 16px;
-            padding-bottom: 16px;
-            img{
-                width: 130px;
-                height: 77px;
+
+    >div {
+        display: grid;
+        grid-template-areas:
+        "nav" "burger-container"
+        "nav" "burger-container";
+        grid-template-columns: 20% 70%;
+
+
+
+        #burger-container { 
+            align-items: right;
+            display: flex;
+            grid-area: burger;
+            padding-bottom: 20 px;
+
+            @include md {
+                display: none;
             }
-                }
- section{
-        
-    display: grid;
 
-           
-    h1{
-        
-        text-align:left;
-        color: $vanilla;
-        font-weight: 300;
-        font-size: rem-calc(20);
-        font-family: 'Work Sans';
-        @include md{
+            @include lg {
+                display: none;
+            }
 
-            // 16px + 1m
-            // 1em = 1 rem
-            font-size: rem-calc(30);
+            @include xl {
+                display: none;
+            }
+
+            i{
+                cursor: pointer;
+                font-size: rem-calc(30); 
+                color: #C38583;
+            }
+
         }
-        @include lg{
 
-            // 16px + 1m
-            // 1em = 1 rem
-            font-size: rem-calc(35);
-        }
-        @include xl{
 
-            // 16px + 1m
-            // 1em = 1 rem
-            font-size: rem-calc(35);
-        }
-        
+
+
+
 
 
     }
 
- }
+
+
+        // div{ 
+        //     display: flex;
+        //     grid-area: header;
+        //     padding-top: 16px;
+        //     padding-bottom: 16px;
+        //     img{
+        //         width: 130px;
+        //         height: 77px;
+        //     }
+        //         }
+//  section{
+        
+//     display: grid;
+
+           
+//     h1{
+        
+//         text-align:left;
+//         color: $vanilla;
+//         font-weight: 300;
+//         font-size: rem-calc(20);
+//         font-family: 'Work Sans';
+//         @include md{
+
+//             // 16px + 1m
+//             // 1em = 1 rem
+//             font-size: rem-calc(30);
+//         }
+//         @include lg{
+
+//             // 16px + 1m
+//             // 1em = 1 rem
+//             font-size: rem-calc(35);
+//         }
+//         @include xl{
+
+//             // 16px + 1m
+//             // 1em = 1 rem
+//             font-size: rem-calc(35);
+//         }
+        
+
+
+//     }
+
+//  }
 }
