@@ -485,12 +485,12 @@ header img {
 }
 header > div {
   display: grid;
-  grid-template-areas: "nav" "burger-container" "nav" "burger-container";
+  grid-template-areas: "burger-container" "burger-container" "burger-container" "burger-container" "burger-container";
   grid-template-columns: 20% 70%;
 }
 header > div #burger-container {
   align-items: right;
-  display: flex;
+  display: grid;
   grid-area: burger;
   padding-bottom: 20 px;
 }
