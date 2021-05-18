@@ -490,6 +490,7 @@ a {
 }
 #nav-container ul li a:link,
 #nav-container ul li a:visited {
+  color: #F7E8DC;
   align-items: center;
   font-family: "Work Sans";
   padding: 0 20px;
@@ -522,6 +523,7 @@ header {
   background-color: #4E7851;
   top: 0;
   width: 100%;
+  height: 100px;
 }
 header > div {
   display: grid;
@@ -536,6 +538,7 @@ header > div {
 }
 header > div #button-container {
   grid-area: online;
+  display: flex-end;
   text-align: right;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -566,6 +569,11 @@ header > div #burger-container #burger-icon {
 }
 header > div #burger-container #burger-icon:hover, header > div #burger-container #burger-icon:active {
   color: #C38583;
+}
+@media (min-width: 1024px) {
+  header > div #burger-container {
+    display: none;
+  }
 }
 header > div #nav-container {
   display: none;
