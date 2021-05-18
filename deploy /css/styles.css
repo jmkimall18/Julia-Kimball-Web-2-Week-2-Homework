@@ -925,8 +925,28 @@ footer button:hover, footer button:active {
     grid-template-columns: auto 480px 16px;
   }
 }
-#hero ul li a {
+#hero ul li a:link, #hero ul li a:visited {
   grid-area: hero-content;
+  color: #F7E8DC;
+  transition: 0.25s;
+  display: flex;
+}
+#hero ul li a:link:hover, #hero ul li a:link:active, #hero ul li a:visited:hover, #hero ul li a:visited:active {
+  color: #C38583;
+}
+#hero ul li a:link .heroside1, #hero ul li a:visited .heroside1 {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+#hero ul li a:link .heroside1 h5, #hero ul li a:visited .heroside1 h5 {
+  display: none;
+}
+@media (min-width: 768px) {
+  #hero ul li a:link .heroside1 h5, #hero ul li a:visited .heroside1 h5 {
+    display: block;
+    padding: 16px;
+  }
 }
 #hero ul #hero1 {
   background-color: #A96562;
@@ -990,32 +1010,6 @@ footer button:hover, footer button:active {
     font-size: 1.25rem;
     padding-bottom: 6px;
   }
-}
-#hero ul #hero1 i {
-  color: #F7E8DC;
-}
-@media (min-width: 576px) {
-  #hero ul #hero1 i {
-    display: list-item;
-  }
-}
-@media (min-width: 768px) {
-  #hero ul #hero1 i {
-    display: list-item;
-  }
-}
-@media (min-width: 1024px) {
-  #hero ul #hero1 i {
-    display: none;
-  }
-}
-@media (min-width: 1200px) {
-  #hero ul #hero1 i {
-    display: none;
-  }
-}
-#hero ul #hero1 i:hover, #hero ul #hero1 i:active {
-  color: #C38583;
 }
 #hero ul #hero2 {
   background-color: #C38583;
@@ -1086,64 +1080,6 @@ footer button:hover, footer button:active {
   #hero ul #hero2 h2 {
     font-size: 1.25rem;
     padding-bottom: 6px;
-  }
-}
-#hero ul #hero2 i {
-  display: flex;
-  align-items: center;
-  margin-right: auto;
-  color: #F7E8DC;
-}
-@media (min-width: 576px) {
-  #hero ul #hero2 i {
-    display: list-item;
-  }
-}
-@media (min-width: 768px) {
-  #hero ul #hero2 i {
-    display: list-item;
-  }
-}
-@media (min-width: 1024px) {
-  #hero ul #hero2 i {
-    display: none;
-  }
-}
-@media (min-width: 1200px) {
-  #hero ul #hero2 i {
-    display: none;
-  }
-}
-#hero ul #hero2 i:hover, #hero ul #hero2 i:active {
-  color: #C38583;
-}
-#hero ul button {
-  display: none;
-  font-size: 14px;
-  font-family: "Work Sans";
-  font-weight: 400;
-  margin-left: 63%;
-  transition: 0.25s;
-  margin-top: 16px;
-  margin-bottom: 32px;
-  margin-left: 63%;
-  border-radius: 5px;
-  padding: 3px 6px;
-  background-color: #89514E;
-  border: none;
-  color: #F7E8DC;
-}
-#hero ul button:hover, #hero ul button:active {
-  color: #C38583;
-}
-@media (min-width: 1024px) {
-  #hero ul button {
-    display: list-item;
-  }
-}
-@media (min-width: 1200px) {
-  #hero ul button {
-    display: list-item;
   }
 }
 

@@ -4,8 +4,6 @@
 
 #hero {
 
-    
-
     #hero-img{
         background-image: url("../img/hero/hero3.jpg");
         background-position: center;
@@ -28,9 +26,6 @@
     
         }
     }
-
-
-
 
 
     ul {
@@ -60,8 +55,36 @@
                 grid-template-columns: auto 480px 16px;
             }
 
-            a {
+            a:link, a:visited {
                 grid-area: hero-content;
+                color: $vanilla;
+                transition: 0.25s;
+
+                display: flex;
+
+                &:hover, &:active{
+                    color: #C38583;
+                }
+
+                div{
+
+                }
+                .heroside1{
+                    margin-left: auto;
+                    display: flex;
+                    align-items: center;
+                    h5{
+                        display: none;
+
+                        @include md{
+                            display: block;
+                            padding: 16px;
+                        }
+
+                    }
+                }
+
+
             }
 
         }
@@ -144,40 +167,7 @@
                 }
             }
 
-            i { 
-
-                @include sm{
-   
-                    display: list-item;
-                   
-                    
-                 
-                 }
-                @include md{
-       
-                    display: list-item;
-                
-                 }
-
-                 @include lg{
-   
-                    display: none;
-                   
-                    
-                 
-                 }
-                @include xl{
-       
-                    display: none;
-                    
-                    
-                 
-                 }
-                color: $vanilla;
-                &:hover, &:active{
-                    color: #C38583;
-                }
-            }
+            
         }
 
         #hero2 {
@@ -267,78 +257,7 @@
 
            
 
-            i { display: flex;
-                @include sm{
-
-            display: list-item;
-               
-                
-             
-             }
-            @include md{
-   
-                display: list-item;
             
-             }
-
-             @include lg{
-
-                display: none;
-               
-                
-             
-             }
-            @include xl{
-   
-                display: none;
-                
-                
-             
-             }
-                align-items: center;
-                margin-right: auto;
-                color: $vanilla;
-                &:hover, &:active{
-                    color: #C38583;
-                }
-            }
-                
-            }
-        
-         
-        button {
-            display: none;
-            font-size: 14px;
-            font-family: 'Work Sans';
-            font-weight: 400;
-            margin-left: 63%;
-            transition: 0.25s;
-            margin-top: 16px;
-            margin-bottom: 32px;
-            margin-left: 63%;
-            border-radius: 5px;
-            padding: 3px 6px;
-            background-color: $christmas;
-            border: none;
-            color: $vanilla;
-            &:hover, &:active{
-                color: #C38583;
-            }
-
-            @include lg{
-   
-                display: list-item;
-               
-                
-             
-             }
-            @include xl{
-   
-                display: list-item;
-                
-                
-             
-             }
             
         }
 
