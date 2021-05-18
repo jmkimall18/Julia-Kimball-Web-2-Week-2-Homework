@@ -472,47 +472,89 @@ a {
     Header
 ============= */
 header {
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". header .";
   background-color: #4E7851;
   width: 100%;
   position: fixed;
 }
 header img {
-  display: flex;
+  display: none;
   height: 77px;
   width: 100%;
 }
-header > div {
-  display: grid;
-  grid-template-areas: "burger-container" "burger-container" "burger-container" "burger-container" "burger-container";
-  grid-template-columns: 20% 70%;
-}
-header > div #burger-container {
-  align-items: right;
-  display: grid;
-  grid-area: burger;
-  padding-bottom: 20 px;
-}
-@media (min-width: 768px) {
-  header > div #burger-container {
-    display: none;
+@media (min-width: 1024px) {
+  header img {
+    display: flex;
   }
 }
+@media (min-width: 1200px) {
+  header img {
+    display: flex;
+  }
+}
+header > div {
+  display: grid;
+  grid-template-areas: "burger-icon Online Order" "nav nav";
+  grid-template-columns: 20% auto;
+}
 @media (min-width: 1024px) {
-  header > div #burger-container {
+  header > div {
+    grid-template-areas: "nav Online Order";
+    grid-template-columns: 20% auto;
+  }
+}
+header > div #button-container {
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+header > div #button-container button {
+  padding-bottom: 16px;
+  font-size: 14px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 3px 6px;
+  background-color: #89514E;
+  border: none;
+  color: #F7E8DC;
+}
+header > div #button-container button:hover, header > div #button-container button:active {
+  color: #C38583;
+}
+header > div #burger-container #burger-icon {
+  align-items: center;
+  display: flex;
+  grid-area: burger;
+  padding: 20px;
+  color: #F7E8DC;
+  cursor: pointer;
+  font-size: 1.875rem;
+}
+@media (min-width: 1024px) {
+  header > div #burger-container #burger-icon {
     display: none;
   }
 }
 @media (min-width: 1200px) {
-  header > div #burger-container {
+  header > div #burger-container #burger-icon {
     display: none;
   }
 }
-header > div #burger-container i {
-  cursor: pointer;
-  font-size: 1.875rem;
+header > div #burger-container #burger-icon:hover, header > div #burger-container #burger-icon:active {
   color: #C38583;
+}
+header > div #nav-container {
+  display: none;
+  background-color: #4E7851;
+  grid-area: nav;
+  padding: 20px 10px 10px;
+}
+@media (min-width: 1024px) {
+  header > div #nav-container {
+    background-color: #4E7851;
+    display: block;
+  }
 }
 
 /* =============
