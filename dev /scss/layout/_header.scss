@@ -2,14 +2,18 @@
     Header
 ============= */
 header {
-        
-        background-color: $forest;
-        width: 100%;
-        position: fixed;
+    position: fixed;
+    left: 0;
+    background-color: $forest;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    
+    
 
 
     >div {
-        
+       
         display: grid;
         grid-template-areas: 
         "burger-icon Online Order"
@@ -61,7 +65,7 @@ header {
 
             
             @include lg {
-                display: none;
+                display: none !important;
             }
 
             @include xl {
@@ -81,11 +85,7 @@ header {
     }
 
         #nav-container {
-            img{
-                width: 100px;
-                height: 77px;
-                padding-right: 16px;
-                }
+            
             display: none;
             background-color: $forest;
             grid-area: nav;
@@ -93,7 +93,7 @@ header {
 
             @include lg{
                 background-color: $forest;
-                display: block;
+                display: block !important;
 
             }
 
@@ -101,10 +101,15 @@ header {
 
 
 
+       
 
 
 
+    }
 
+    >div{
+
+        grid-area: header;
     }
 
 

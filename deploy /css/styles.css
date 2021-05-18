@@ -467,6 +467,11 @@ a {
   text-decoration: none;
 }
 
+#nav-container img {
+  width: 100px;
+  height: 56px;
+  padding-right: 16px;
+}
 @media (min-width: 1024px) {
   #nav-container ul {
     display: flex;
@@ -504,16 +509,6 @@ a {
 #nav-container ul li a:visited:active {
   color: #C38583;
 }
-#nav-container ul li:first-child {
-  border: none;
-  display: none;
-}
-@media (min-width: 768px) {
-  #nav-container ul li:first-child {
-    padding: 10px;
-    display: list-item;
-  }
-}
 #nav-container ul li:last-child {
   border: none;
 }
@@ -522,9 +517,12 @@ a {
     Header
 ============= */
 header {
-  background-color: #4E7851;
-  width: 100%;
   position: fixed;
+  left: 0;
+  background-color: #4E7851;
+  top: 0;
+  width: 100%;
+  height: 100px;
 }
 header > div {
   display: grid;
@@ -568,7 +566,7 @@ header > div #burger-container #burger-icon {
 }
 @media (min-width: 1024px) {
   header > div #burger-container #burger-icon {
-    display: none;
+    display: none !important;
   }
 }
 @media (min-width: 1200px) {
@@ -585,16 +583,14 @@ header > div #nav-container {
   grid-area: nav;
   padding: 20px 10px 10px;
 }
-header > div #nav-container img {
-  width: 100px;
-  height: 77px;
-  padding-right: 16px;
-}
 @media (min-width: 1024px) {
   header > div #nav-container {
     background-color: #4E7851;
-    display: block;
+    display: block !important;
   }
+}
+header > div {
+  grid-area: header;
 }
 
 /* =============
@@ -750,6 +746,7 @@ footer button:hover, footer button:active {
     heading-1
 ============= */
 #heading-1 {
+  margin-top: 100px;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". heading-1 .";

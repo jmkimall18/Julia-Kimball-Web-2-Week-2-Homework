@@ -8,7 +8,14 @@ a{
 
 #nav-container{
 
+    img{
+        width: 100px;
+        height: 56px;
+        padding-right: 16px;
+        }
+
 ul{
+ 
 
 @include lg{
 
@@ -19,12 +26,12 @@ li {
 
 margin-bottom: 20px;
 
+
 @include lg{
 align-items: center;
 border-right: 1px solid $vanilla;
 display: flex;
 margin-bottom: 0px;
-
 
 }
 
@@ -52,20 +59,20 @@ a:visited{
     }
 
 
-li:first-child {
+// li:first-child {
 
-    border: none;
-    display: none;
+//     border: none;
+//     display: none;
 
-    @include md{
+//     @include md{
        
         
-        padding: 10px;
-        display: list-item;
-    }
+//         padding: 10px;
+//         display: list-item;
+//     }
 
 
-}
+// }
 
 li:last-child {
 
