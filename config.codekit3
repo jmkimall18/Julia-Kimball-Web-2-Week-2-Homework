@@ -9,7 +9,7 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
-    "\/deploy \/css\/styles.css" : {
+    "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -17,16 +17,16 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/css\/styles-min.css",
+      "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy \/img\/blueberries\/Berriesall.jpg" : {
+    "\/deploy\/img\/blueberries\/Berriesall.jpg" : {
       "ft" : 16384,
       "iS" : 1800685,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/blueberries\/Berriesall.jpg",
+      "oAP" : "\/deploy\/img\/blueberries\/Berriesall.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -34,12 +34,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/field2\/farmfield.jpg" : {
+    "\/deploy\/img\/field2\/farmfield.jpg" : {
       "ft" : 16384,
       "iS" : 3519943,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/field2\/farmfield.jpg",
+      "oAP" : "\/deploy\/img\/field2\/farmfield.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -47,11 +47,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/footer\/facebook-square-brands.png" : {
+    "\/deploy\/img\/footer\/facebook-square-brands.png" : {
       "ft" : 32768,
       "iS" : 427,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/footer\/facebook-square-brands.png",
+      "oAP" : "\/deploy\/img\/footer\/facebook-square-brands.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -60,11 +60,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/footer\/instagram-square-brands.png" : {
+    "\/deploy\/img\/footer\/instagram-square-brands.png" : {
       "ft" : 32768,
       "iS" : 779,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/footer\/instagram-square-brands.png",
+      "oAP" : "\/deploy\/img\/footer\/instagram-square-brands.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -73,11 +73,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/footer\/location-arrow-light.png" : {
+    "\/deploy\/img\/footer\/location-arrow-light.png" : {
       "ft" : 32768,
       "iS" : 676,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/footer\/location-arrow-light.png",
+      "oAP" : "\/deploy\/img\/footer\/location-arrow-light.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -86,11 +86,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/footer\/mobile-android-light.png" : {
+    "\/deploy\/img\/footer\/mobile-android-light.png" : {
       "ft" : 32768,
       "iS" : 283,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/footer\/mobile-android-light.png",
+      "oAP" : "\/deploy\/img\/footer\/mobile-android-light.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -99,11 +99,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/footer\/twitter-square-brands.png" : {
+    "\/deploy\/img\/footer\/twitter-square-brands.png" : {
       "ft" : 32768,
       "iS" : 571,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/footer\/twitter-square-brands.png",
+      "oAP" : "\/deploy\/img\/footer\/twitter-square-brands.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -112,11 +112,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/footer\/youtube-square-brands.png" : {
+    "\/deploy\/img\/footer\/youtube-square-brands.png" : {
       "ft" : 32768,
       "iS" : 590,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/footer\/youtube-square-brands.png",
+      "oAP" : "\/deploy\/img\/footer\/youtube-square-brands.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -125,12 +125,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/Hayrides\/hay.jpg" : {
+    "\/deploy\/img\/Hayrides\/hay.jpg" : {
       "ft" : 16384,
       "iS" : 3279147,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/Hayrides\/hay.jpg",
+      "oAP" : "\/deploy\/img\/Hayrides\/hay.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -138,22 +138,22 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/header\/logoFrame2.svg" : {
+    "\/deploy\/img\/header\/logoFrame2.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy \/img\/header\/logoFrame2.svg",
+      "oAP" : "\/deploy\/img\/header\/logoFrame2.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy \/img\/hero\/hero3.jpg" : {
+    "\/deploy\/img\/hero\/hero3.jpg" : {
       "ft" : 16384,
       "iS" : 2766074,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/hero\/hero3.jpg",
+      "oAP" : "\/deploy\/img\/hero\/hero3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -161,12 +161,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/Interal-store\/inside.jpeg" : {
+    "\/deploy\/img\/Interal-store\/inside.jpeg" : {
       "ft" : 16384,
       "iS" : 3385649,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/Interal-store\/inside.jpg",
+      "oAP" : "\/deploy\/img\/Interal-store\/inside.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -174,12 +174,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/kids-dad\/kids.jpg" : {
+    "\/deploy\/img\/kids-dad\/kids.jpg" : {
       "ft" : 16384,
       "iS" : 2852846,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/kids-dad\/kids.jpg",
+      "oAP" : "\/deploy\/img\/kids-dad\/kids.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -187,12 +187,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/people-food\/farmstand.jpg" : {
+    "\/deploy\/img\/people-food\/farmstand.jpg" : {
       "ft" : 16384,
       "iS" : 2384627,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/people-food\/farmstand.jpg",
+      "oAP" : "\/deploy\/img\/people-food\/farmstand.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -200,12 +200,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/strawberries\/straws.jpg" : {
+    "\/deploy\/img\/strawberries\/straws.jpg" : {
       "ft" : 16384,
       "iS" : 4249000,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/strawberries\/straws.jpg",
+      "oAP" : "\/deploy\/img\/strawberries\/straws.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -213,12 +213,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/veggies\/veggiess2.jpg" : {
+    "\/deploy\/img\/veggies\/veggiess2.jpg" : {
       "ft" : 16384,
       "iS" : 13457,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/veggies\/veggiess2.jpg",
+      "oAP" : "\/deploy\/img\/veggies\/veggiess2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -226,12 +226,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/wholesale\/Berries.jpg" : {
+    "\/deploy\/img\/wholesale\/Berries.jpg" : {
       "ft" : 16384,
       "iS" : 13148,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/wholesale\/Berries.jpg",
+      "oAP" : "\/deploy\/img\/wholesale\/Berries.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -239,12 +239,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/img\/woman\/women.jpg" : {
+    "\/deploy\/img\/woman\/women.jpg" : {
       "ft" : 16384,
       "iS" : 2191233,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/img\/woman\/women.jpg",
+      "oAP" : "\/deploy\/img\/woman\/women.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -252,21 +252,21 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy \/index.html" : {
+    "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/index.html",
+      "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
-    "\/deploy \/js\/scripts-min.js" : {
+    "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/deploy \/js\/scripts-min-min.js",
+      "oAP" : "\/deploy\/js\/scripts-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -356,7 +356,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/index.html",
+      "oAP" : "\/deploy\/index.html",
       "oF" : 3
     },
     "\/dev \/js\/scripts.js" : {
@@ -365,7 +365,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/deploy \/js\/scripts-min.js",
+      "oAP" : "\/deploy\/js\/scripts-min.js",
       "oF" : 3,
       "sC" : 3,
       "tS" : 0
@@ -602,7 +602,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy \/css\/styles.css",
+      "oAP" : "\/deploy\/css\/styles.css",
       "oF" : 3,
       "oS" : 0,
       "pg" : 0,

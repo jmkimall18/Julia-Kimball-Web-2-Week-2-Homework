@@ -7,157 +7,83 @@ header {
     background-color: $forest;
     top: 0;
     width: 100%;
-    height: 100px;
-    
-    
-
+    // height: 100px;
 
     >div {
-       
+
         display: grid;
-        grid-template-areas: 
-        "burger-icon Online Order"
-        "nav nav";
+        grid-template-areas:
+            "burger-icon online"
+            "nav nav";
         grid-template-columns: 20% auto;
 
         @include lg {
-            grid-template-areas: "nav Online Order";
+            grid-template-areas: "nav online";
             grid-template-columns: 20% auto;
         }
 
-         #button-container{
-           
-           
-           text-align: right;
-           padding-top: 20px;
-           padding-bottom: 20px;
-           padding-right: 20px;
-           
+        #button-container {
+            grid-area: online;
 
-            button{
-            padding-bottom: 16px;
-            font-size: 14px;
-            font-family: 'Work Sans';
-            font-weight: 400;
-        
-            border-radius: 5px;
-            padding: 3px 6px;
-            background-color: $christmas;
-            border: none;
-            color: $vanilla;
-            &:hover, &:active{
-                color: #C38583;
-            }
+            text-align: right;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-right: 20px;
 
-            }
 
-        }
+            button {
+                padding-bottom: 16px;
+                font-size: 14px;
+                font-family: 'Work Sans';
+                font-weight: 400;
 
-        
-        #burger-container{
-        #burger-icon{ 
-
-            align-items: center;
-            display: flex;
-            grid-area: burger;
-            padding: 20px;
-            
-
-            
-            @include lg {
-                display: none !important;
-            }
-
-            @include xl {
-                display: none;
-            }
-
+                border-radius: 5px;
+                padding: 3px 6px;
+                background-color: $christmas;
+                border: none;
                 color: $vanilla;
-                cursor: pointer;
-                font-size: rem-calc(30); 
-                &:hover, &:active{
+
+                &:hover,
+                &:active {
                     color: #C38583;
                 }
-               
-            
+
+            }
 
         }
-    }
+
+
+        #burger-container {
+
+            grid-area: burger-icon;
+            padding: 16px 0 0 16px;
+
+            #burger-icon {
+                color: $vanilla;
+                cursor: pointer;
+                font-size: rem-calc(30);
+
+                &:hover,
+                &:active {
+                    color: #C38583;
+                }
+            }
+        }
 
         #nav-container {
-            
+
             display: none;
             background-color: $forest;
             grid-area: nav;
             padding: 20px 10px 10px;
 
-            @include lg{
+            @include lg {
                 background-color: $forest;
                 display: block !important;
 
             }
 
         }
-
-
-
-       
-
-
-
     }
 
-    >div{
-
-        grid-area: header;
-    }
-
-
-
-        // div{ 
-        //     display: flex;
-        //     grid-area: header;
-        //     padding-top: 16px;
-        //     padding-bottom: 16px;
-        //     img{
-        //         width: 130px;
-        //         height: 77px;
-        //     }
-        //         }
-//  section{
-        
-//     display: grid;
-
-           
-//     h1{
-        
-//         text-align:left;
-//         color: $vanilla;
-//         font-weight: 300;
-//         font-size: rem-calc(20);
-//         font-family: 'Work Sans';
-//         @include md{
-
-//             // 16px + 1m
-//             // 1em = 1 rem
-//             font-size: rem-calc(30);
-//         }
-//         @include lg{
-
-//             // 16px + 1m
-//             // 1em = 1 rem
-//             font-size: rem-calc(35);
-//         }
-//         @include xl{
-
-//             // 16px + 1m
-//             // 1em = 1 rem
-//             font-size: rem-calc(35);
-//         }
-        
-
-
-//     }
-
-//  }
 }
