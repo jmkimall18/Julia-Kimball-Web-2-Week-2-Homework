@@ -2,46 +2,49 @@
     section-1
 ============= */
 
-#section-1{
+#section-1 {
 
     row-gap: 16px;
 
-    @include md{
+    @include md {
         display: grid;
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". section-1 .";
     }
 
-    @include xl{
+    @include xl {
         grid-template-columns: auto 1000px auto;
     }
 
 
-    ul{
+    ul {
         padding-bottom: 16px;
         padding-top: 16px;
         display: grid;
         gap: 16px;
 
-        @include md{
+        @include md {
             padding-top: 22px;
             padding-bottom: 26px;
         }
-        @include lg{
+
+        @include lg {
 
             padding-top: 24px;
             padding-bottom: 55px;
         }
-        @include xl{
+
+        @include xl {
             padding-top: 42px;
             padding-bottom: 42px;
         }
 
-        @include md{
+        @include md {
             grid-template-columns: 50% auto;
             gap: 24px;
             grid-area: section-1;
         }
+
         h1 {
             color: $vanilla;
             font-weight: 300;
@@ -51,114 +54,110 @@
             padding-top: 12px;
             padding-bottom: 12px;
 
-            @include md{
+            @include md {
 
                 // 16px + 1m
                 // 1em = 1 rem
                 font-size: rem-calc(20);
                 padding-top: 16px;
                 padding-bottom: 6px;
-                
+
             }
-            @include lg{
+
+            @include lg {
 
                 // 16px + 1m
                 // 1em = 1 rem
                 font-size: rem-calc(25);
                 padding-top: 16px;
                 padding-bottom: 6px;
-                
+
             }
-            @include xl{
+
+            @include xl {
 
                 // 16px + 1m
                 // 1em = 1 rem
                 font-size: rem-calc(30);
                 padding-top: 16px;
                 padding-bottom: 6px;
-                
+
             }
+        }
+
+
+        li {
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". section-1-content .";
+            background-color: $garden;
+            padding-top: 16px;
+            padding-bottom: 16px;
+
+
+            >div {
+
+                grid-area: section-1-content;
+                display: flex;
+                align-items: center;
+
+                
+
+                aside {
+                    margin-left: auto;
+
+
+
+
+                    div {
+
+
+                        background-position: center;
+                        border: 4px $vanilla solid;
+                        height: 85px;
+                        width: 85px;
+                        border-radius: 100%;
                     }
 
+                    #planning-left {
 
-        li{
-        display: grid;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". section-1-content .";
-        background-color: $garden;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        
+                        background: url("../img/veggies/veggiess2.jpg");
+                        background-size: cover;
 
-         >div{
-            
-             grid-area: section-1-content;   
-             display: flex;
-             align-items: center;
-             section{
-                
+                    }
 
-                
-             }
+                    #planning-right {
 
-             aside{
-                 margin-left: auto;
-                 
-            
-               
-                
-                 div{
-                    
-        
-        background-position: center;
-        border: 4px $vanilla solid;
-        height: 85px;
-        width: 85px;
-        border-radius: 100%;
-                 }
-    
-        #planning-left{
+                        background: url("../img/wholesale/Berries.jpg");
+                        background-size: cover;
+                    }
+                }
 
-            background: url("../img/veggies/veggiess2.jpg");
-            background-size: cover;
-            
-        }
+            }
 
-        #planning-right{
-            
-            background: url("../img/wholesale/Berries.jpg");
-            background-size: cover;
+
         }
     }
-                        
-                }
 
-        
-            }
+
+
+    button {
+
+        font-size: 14px;
+        font-family: 'Work Sans';
+        font-weight: 400;
+
+        border-radius: 5px;
+        padding: 3px 6px;
+        background-color: $christmas;
+        border: none;
+        color: $vanilla;
+
+        &:hover,
+        &:active {
+            color: #C38583;
         }
-    
-        
 
-        button{
+    }
 
-            font-size: 14px;
-            font-family: 'Work Sans';
-            font-weight: 400;
-        
-            border-radius: 5px;
-            padding: 3px 6px;
-            background-color: $christmas;
-            border: none;
-            color: $vanilla;
-            &:hover, &:active{
-                color: #C38583;
-            }
-        
-                }
-        
 }
-
-
-
-
-
